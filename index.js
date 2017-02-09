@@ -1,9 +1,12 @@
-var express = require('express');
+var expressServer = require('express');
 
-var app = express();
+var app = expressServer();
 
-app.use(express.static('public'));
+app.use(expressServer.static('public'));
 
-app.listen(8081, function() {
-    console.log('server is listening on port ' + 8081);
+var defaultPort = 8081;
+var port = process.env.PORT || defaultPort;
+
+app.listen(port, function() {
+    console.log('server is listening on port ' + port);
 });
