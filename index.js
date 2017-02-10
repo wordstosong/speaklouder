@@ -4,7 +4,7 @@ var app = expressServer();
 
 app.use(expressServer.static('public'));
 
-var defaultPort = 9239;
+var defaultPort = 8081;
 
 var port = process.env.PORT || defaultPort;
 app.listen(port, function() {
