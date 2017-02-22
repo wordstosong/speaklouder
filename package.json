@@ -11,5 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.1"
-  }
+  },
+  "repository": "ssh://git@github.com:wordstosong/jacobscript.git"
 }
