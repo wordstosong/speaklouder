@@ -1,0 +1,109 @@
+body {
+  background: linear-gradient(45deg, #415A85 , #415A85);
+}
+
+#nav {
+    background-color: #333333;
+    width: 285px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+  font-family: 'PT Sans';
+  font-size: 25px;
+  font-weight: 700;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#comic-frame {
+    background-color: #333333;
+    width: 285px;
+    height: 1300px;
+    margin-top:85px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+.panels {
+  float:left;
+  background-color: white;
+  width:245px;
+  height:300px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#comic-nav {
+    background-color: #333333;
+    width: 285px;
+    height: 95px;
+    margin-left: auto;
+    margin-right:auto;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+#comic-info {
+    background-color: #F8EBD1;
+    float: ;
+    width: 285px;
+    height: 750px;
+    margin: 20px auto;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+  padding:20px 20px 0 20px;
+  margin:0;
+  font-family: 'PT Sans Narrow';
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#date{
+  padding: 0 20px 20px 20px;
+  margin:0;
+  font-family: 'PT Sans';
+  font-size: 16px;
+}
+
+#sidebar-right {
+    background-color: #F8EBD1;
+    float:;
+    width: 285px;
+    height: 330px;
+    margin: 20px auto;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+#footer {
+    background-color: #333333;
+    clear: left;
+    width: 320px;
+    height: 94px;
+    margin:auto;
+    border-top: 6px solid #C13738;
+
+}
