@@ -49,7 +49,7 @@ li a:hover {
 
 .panels {
   float:left;
-  background-color: white;
+  /*background-color: white;*/
   width:245px;
   height:300px;
   margin-top: 20px;
@@ -66,8 +66,8 @@ li a:hover {
 }
 
 #comic-info {
-    /*background-color: #F8EBD1;
-    float: ;*/
+    background-color: #F8EBD1;
+    float: ;
     width: 285px;
     height: 750px;
     margin: 20px auto;
