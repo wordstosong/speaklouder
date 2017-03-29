@@ -67,7 +67,7 @@ li a:hover {
 
 #comic-info {
     background-color: #F8EBD1;
-    float: ;
+    /*float: ;*/
     width: 285px;
     height: 750px;
     margin: 20px auto;
@@ -91,7 +91,7 @@ h1 {
 
 #sidebar-right {
     background-color: #F8EBD1;
-    float:;
+    /*float:;*/
     width: 285px;
     height: 330px;
     margin: 20px auto;
