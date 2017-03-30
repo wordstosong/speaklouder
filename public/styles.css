@@ -54,7 +54,7 @@ li a:hover {
   width: 93.75%;
   max-width: 600px;
   margin-top: 20px;
-  margin-left: 20px;
+ /* margin-left: 20px;*/
 }
 
 #comic-nav {
