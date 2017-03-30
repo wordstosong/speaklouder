@@ -115,6 +115,16 @@ h1 {
     #comic-frame{
         width:85%;
 }
+        .panels{
+            float:left;
+
+
+        }
+        .panels img {
+        /*background-color: white;*/
+        width: 50%;
+        margin: 20px 3.125% 0;
+}
 
 
 }
