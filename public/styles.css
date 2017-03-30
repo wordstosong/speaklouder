@@ -41,7 +41,7 @@ li a:hover {
 #comic-frame {
     background-color: #333333;
     width: 100%;
-    height: 1300px;
+    height: auto;
     margin-top:85px;
     margin-left: auto;
     margin-right: auto;
