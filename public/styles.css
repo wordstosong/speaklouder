@@ -113,10 +113,10 @@ h1 {
         margin: auto;
     }
     #comic-frame{
-        float: left;
+        width: auto;
 }
         .panels{
-            float: left;
+            width:50%;
             
 
 
