@@ -124,7 +124,7 @@ h1 {
         }
         .panels img {
         /*background-color: white;*/
-        
+        clear: both;
         margin: 20px 3.125% 0;
 }
 
