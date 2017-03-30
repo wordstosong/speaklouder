@@ -116,6 +116,7 @@ h1 {
         width: auto;
 }
         .panels{
+            float: left;
             width:50%;
             
 
