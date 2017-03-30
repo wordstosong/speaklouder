@@ -49,7 +49,7 @@ li a:hover {
 }
 
 .panels img {
-  float:left;
+  /*float:left;*/
   /*background-color: white;*/
   width: 93.75%;
   max-width: 600px;
