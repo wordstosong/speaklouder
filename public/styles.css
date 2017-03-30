@@ -115,15 +115,15 @@ h1 {
     #comic-frame{
         width:auto;
 }
-        /*.panels{
-            float:left;
+        .panels{
+            width:50%;
             
 
 
-        }*/
+        }
         .panels img {
         /*background-color: white;*/
-        width:50%;
+        
         margin: 20px 3.125% 0;
 }
 
