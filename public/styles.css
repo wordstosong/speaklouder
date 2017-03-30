@@ -117,12 +117,13 @@ h1 {
 }
         .panels{
             float:left;
+            width:50%;
 
 
         }
         .panels img {
         /*background-color: white;*/
-        width: 50%;
+        
         margin: 20px 3.125% 0;
 }
 
