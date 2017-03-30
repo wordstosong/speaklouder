@@ -113,7 +113,7 @@ h1 {
         margin: auto;
     }
     #comic-frame{
-        width:85%;
+        float: left;
 }
         .panels{
             float: left;
@@ -124,7 +124,7 @@ h1 {
         .panels img {
         /*background-color: white;*/
         
-       /* margin: 20px 3.125% 0;*/
+        margin: 20px 3.125% 0;
 }
 
 
