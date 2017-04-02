@@ -47,13 +47,16 @@ li a:hover {
     margin-right: auto;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
 }
+#panels{
+     margin: 20px 3.125% 0;
+}
 
 .panels img {
   /*float:left;*/
   /*background-color: white;*/
   width: 93.75%;
   max-width: 400px;
-  margin: 20px 3.125% 0;
+ 
 }
 
 #comic-nav {
