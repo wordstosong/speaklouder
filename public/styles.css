@@ -115,11 +115,8 @@ h1 {
     #comic-frame{
         width: auto;
 }
-    #panel-l{
+    #panel-l, #panel-2{
         float: left;
-    }
-    #panel-2{
-        float:right;
     }
     
 
