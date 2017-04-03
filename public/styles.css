@@ -57,7 +57,7 @@ li a:hover {
   /*background-color: white;*/
   width: 93.75%;
   max-width: 400px;
-  padding: 20px 3.125% 0;
+  padding: auto; /*20px 3.125% 0*/
  
 }
 
