@@ -121,8 +121,20 @@ h1 {
 }
 
 @media only screen and (min-width: 720px){
-    #comic-frame{
+     #nav{
         width:85%;
+        margin: auto;
+     }
+     #comic-frame{
+        width:85%;
+        max-width:none;
+        overflow: auto;
+    }
+
+    .panels img {
+      width:40%;
+      max-width:none;
+      float: left;  
     }
 }
 
