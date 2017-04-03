@@ -127,13 +127,13 @@ h1 {
      }
      #comic-frame{
         width:85%;
-        max-width:none;
+        max-width:850px;
         overflow: auto;
     }
 
     .panels img {
       width:47%;
-      max-width:none;
+      max-width:400px;
       float: left; 
       padding: 2% 0 0 2%;
     }
