@@ -132,10 +132,14 @@ h1 {
     }
 
     .panels img {
-      width:40%;
+      width:47%;
       max-width:none;
-      float: left;  
+      float: left; 
+      padding: 2% 0 0 2%;
     }
+    #panel-4 {
+      padding-bottom:121%;
+      }
 }
 
 /* @media only screen and (min-width: 440px) {
