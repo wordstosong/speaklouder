@@ -74,14 +74,15 @@ li a:hover {
     margin-right:auto;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
 }
-
+#sub-comic{
+    width: 100%
+    max-width: 440px;
+    margin: 20px auto;
+}
 #comic-info {
     background-color: #F8EBD1;
     /*float: ;*/
-    width: 100%;
-    max-width: 440px;
     height: 750px;
-    margin: 20px auto;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
 }
 
@@ -103,10 +104,7 @@ h1 {
 #sidebar-right {
     background-color: #F8EBD1;
     /*float:;*/
-    width: 100%;
-    max-width: 440px;
     height: 330px;
-    margin: 20px auto;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
 }
 
