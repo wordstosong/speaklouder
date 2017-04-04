@@ -149,7 +149,7 @@ h1 {
      }
      #comic-frame{
         width:90%;
-        /*max-width:850px;*/
+        max-width:none;
         overflow: auto;
     }
 
