@@ -145,7 +145,7 @@ h1 {
     }
     #sub-comic{
     width: 85%;
-    /*max-width: 850px;*/
+    max-width: none;
     overflow: auto;
 }
     #comic-info {
@@ -158,7 +158,7 @@ h1 {
         max-width: none;
         float: left;
         margin-left: 2%;
-        margin-top: none;
+        margin-top: 0;
     }
 }
 
