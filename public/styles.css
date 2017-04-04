@@ -145,8 +145,13 @@ h1 {
         max-width: 850px;
     }
     #comic-info {
-        width: 85%;
+        width: 60%;
         max-width:600px;
+        float: left;
+    }
+    #sidebar-right {
+        width: 25%;
+        max-width: none;
     }
 }
 
