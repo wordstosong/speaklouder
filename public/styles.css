@@ -156,6 +156,8 @@ h1 {
     #sidebar-right {
         width: 25%;
         max-width: none;
+        float: left;
+        margin-left: 20px;
     }
 }
 
