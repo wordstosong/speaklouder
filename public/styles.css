@@ -146,6 +146,7 @@ h1 {
     #sub-comic{
     width: 85%;
     max-width: 850px;
+    overflow: auto;
 }
     #comic-info {
         width: 60%;
