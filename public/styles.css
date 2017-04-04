@@ -75,7 +75,7 @@ li a:hover {
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
 }
 #sub-comic{
-    width: 100%
+    width: 100%;
     max-width: 440px;
     margin: 20px auto;
 }
