@@ -148,7 +148,10 @@ h1 {
     max-width: none;
     overflow: auto;
 }
-    #comic-info {
+ 
+}
+@media only screen and (min-width: 900px){
+   #comic-info {
         width: 65%;
         /*max-width:600px;*/
         float: left;
@@ -160,8 +163,8 @@ h1 {
         margin-left: 2%;
         margin-top: 0;
     }
-}
 
+}
 @media only screen and (min-width: 1080px){
      #nav{
         width:90%;
