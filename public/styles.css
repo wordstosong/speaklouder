@@ -145,16 +145,16 @@ h1 {
     }
     #sub-comic{
     width: 85%;
-    max-width: 850px;
+    /*max-width: 850px;*/
     overflow: auto;
 }
     #comic-info {
-        width: 75%;
+        width: 65%;
         /*max-width:600px;*/
         float: left;
     }
     #sidebar-right {
-        width: 23%;
+        width: 33%;
         max-width: none;
         float: left;
         margin-left: 2%;
