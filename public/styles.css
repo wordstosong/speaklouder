@@ -145,7 +145,7 @@ h1 {
     }
     #sub-comic{
     width: 85%;
-    max-width: none;
+    max-width: 850px;
     overflow: auto;
 }
  
@@ -189,6 +189,11 @@ h1 {
       width: 90%;
       max-width: none;
     }
+        #sub-comic{
+    width: 90%;
+    max-width: none;
+    overflow: auto;
+}
 }
 
 /* @media only screen and (min-width: 440px) {
