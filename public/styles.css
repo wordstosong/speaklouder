@@ -150,10 +150,9 @@ h1 {
 }
  
 }
-@media only screen and (min-width: 900px){
+/*@media only screen and (min-width: 900px){
    #comic-info {
         width: 65%;
-        /*max-width:600px;*/
         float: left;
     }
     #sidebar-right {
@@ -164,8 +163,8 @@ h1 {
         margin-top: 0;
     }
 
-}
-@media only screen and (min-width: 1080px){
+}*/
+@media only screen and (min-width: 900px){
      #nav{
         width:90%;
         margin: auto;
@@ -194,6 +193,19 @@ h1 {
     max-width: none;
     overflow: auto;
 }
+   #comic-info {
+        width: 65%;
+        /*max-width:600px;*/
+        float: left;
+    }
+    #sidebar-right {
+        width: 33%;
+        max-width: none;
+        float: left;
+        margin-left: 2%;
+        margin-top: 0;
+    }
+
 }
 
 /* @media only screen and (min-width: 440px) {
