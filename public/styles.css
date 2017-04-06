@@ -136,6 +136,7 @@ h1 {
 @media only screen and (min-width: 650px){
      #nav{
         width:85%;
+        max-width:850px;
         margin: auto;
      }
      #comic-frame{
@@ -181,6 +182,7 @@ h1 {
 @media only screen and (min-width: 900px){
      #nav{
         width:90%;
+        max-width:none;
         margin: auto;
      }
      #comic-frame{
