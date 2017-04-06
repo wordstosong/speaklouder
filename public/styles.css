@@ -38,9 +38,12 @@ li a:hover {
     background-color: #111;
 }
 .burger {
-  float: right;
-  font-size: 4rem;
-  padding: 0 .45rem;
+    float: right;
+    font-family: arial;
+    font-weight: 500;
+    font-size: 3rem;
+    padding: 0px 0.75rem;
+    line-height: 3rem;
 }
 
 .burger a {
