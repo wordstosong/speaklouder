@@ -6,6 +6,7 @@ body {
 #nav {
     background-color: #333333;
     width: 100%;
+    max-width: 440px;
     height: 50px;
     /*margin-left: auto;
     margin-right: auto;*/
