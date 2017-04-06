@@ -37,6 +37,16 @@ li a {
 li a:hover {
     background-color: #111;
 }
+.veggieburger {
+  float: right;
+  font-size: 2.5rem;
+  padding: 0 .45rem;
+}
+
+.veggieburger a {
+ text-decoration: none;
+ color: rgb(255, 90, 95);
+}
 
 #comic-frame {
     background-color: #333333;
