@@ -169,6 +169,9 @@ h1 {
      .menu {
          display: block;
      }
+     .burger {
+         display: none;
+     }
      #comic-frame{
         width:85%;
         max-width:850px;
