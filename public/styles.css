@@ -7,7 +7,7 @@ nav {
     background-color: #333333;
     width: 100%;
     max-width: 440px;
-    height: 50px;
+    height: 70px;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
@@ -16,12 +16,18 @@ nav {
   font-weight: 700;
 }
 
-/*.logo img {
+.logo {
     float: left;
-    width: 120px;
-    margin-top: -20px;
-    margin-left: 150px;
-}*/
+    position: relative;
+    left: 50%;
+}
+
+.logo img {
+    float: left;
+    position: relative;
+    left: -50%;
+    height: 125px;
+    margin-top: -20;
 
 ul {
     list-style-type: none;
