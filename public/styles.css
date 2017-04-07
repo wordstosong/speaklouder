@@ -16,13 +16,13 @@ nav {
   font-weight: 700;
 }
 
-.logo {
+.logo-small {
     float: left;
     position: relative;
     left: 50%;
 }
 
-.logo img {
+.logo-small img {
     float: left;
     position: relative;
     left: -50%;
