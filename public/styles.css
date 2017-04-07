@@ -153,6 +153,10 @@ h1 {
         max-width:850px;
         margin: auto;
      }
+
+     .logo-small {
+         display: none:
+     }
      #comic-frame{
         width:85%;
         max-width:850px;
