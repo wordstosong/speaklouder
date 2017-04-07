@@ -158,6 +158,7 @@ h1 {
      }
 
      .logo {
+         display: block;
          width:120px;
      }
      .logo-small {
