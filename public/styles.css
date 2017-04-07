@@ -3,7 +3,7 @@ body {
   margin: 0;
 }
 
-#nav {
+nav {
     background-color: #333333;
     width: 100%;
     max-width: 440px;
@@ -134,7 +134,7 @@ h1 {
 }
 
 @media only screen and (min-width: 650px){
-     #nav{
+     nav{
         width:85%;
         max-width:850px;
         margin: auto;
@@ -180,7 +180,7 @@ h1 {
 
 }*/
 @media only screen and (min-width: 900px){
-     #nav{
+     nav{
         width:90%;
         max-width:none;
         margin: auto;
