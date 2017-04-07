@@ -15,6 +15,12 @@ nav {
   font-size: 25px;
   font-weight: 700;
 }
+.logo {
+    float: left;
+    width: 120px;
+    margin-top: -20px;
+    margin-left: 150px;
+}
 
 ul {
     list-style-type: none;
