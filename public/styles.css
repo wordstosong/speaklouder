@@ -32,7 +32,9 @@ nav {
     height: 125px;
     margin-top: -20;
 }
-
+.menu {
+    display: none;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -163,6 +165,9 @@ h1 {
      }
      .logo-small {
          display: none;
+     }
+     .menu {
+         display: block;
      }
      #comic-frame{
         width:85%;
