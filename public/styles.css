@@ -170,7 +170,7 @@ h1 {
          margin-top: -50px;
          margin-left: -20px;
      }
-     
+
      .logo-small {
          display: none;
      }
@@ -225,6 +225,7 @@ h1 {
         width:90%;
         max-width:none;
         margin: auto;
+        margin-top: 100px;
      }
      #comic-frame{
         width:90%;
