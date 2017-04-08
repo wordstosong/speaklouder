@@ -164,6 +164,13 @@ h1 {
          display: block;
          width:120px;
      }
+     
+     .logo img {
+         height: 150px;
+         margin-top: -50px;
+         margin-left: -20px;
+     }
+     
      .logo-small {
          display: none;
      }
