@@ -69,7 +69,8 @@ li a:hover {
 .burger a {
  text-decoration: none;
  color: #F8EBD1;
- padding:50px;
+ padding:0 10px;
+ margin-right: 5px;
 }
 
 .burger a:hover {
