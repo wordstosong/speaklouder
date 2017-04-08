@@ -71,6 +71,10 @@ li a:hover {
  color: #F8EBD1;
 }
 
+.burger a:hover {
+    background-color: #111;
+}
+
 #comic-frame {
     background-color: #333333;
     width: 100%;
