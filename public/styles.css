@@ -6,6 +6,7 @@ body {
 .social-headers {
     height: 32px;
     width: 32px;
+    display: none;
 }
 
 nav {
@@ -169,6 +170,10 @@ h1 {
 }
 
 @media only screen and (min-width: 650px){
+    .social-headers{
+        display: block;
+    }
+    
      nav{
         width:85%;
         max-width:850px;
