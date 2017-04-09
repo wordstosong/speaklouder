@@ -172,8 +172,17 @@ h1 {
 @media only screen and (min-width: 650px){
     .social-headers{
         display: inline-block;
+        float:right;
+        margin-top:-40px;
+        margin-right:50px;
     }
     
+    .social-headers img {
+        width: 32px
+    }
+    #twit-head {
+        margin: 0 10px;
+    }
      nav{
         width:85%;
         max-width:850px;
