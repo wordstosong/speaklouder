@@ -45,8 +45,8 @@ ul {
 
 li {
     float: left;
-    width: 140px;
-    padding: 19px 20px;
+    
+    
 }
 
 li a {
@@ -54,7 +54,8 @@ li a {
     color: white;
     text-align: center;
     letter-spacing: 3px;
-    /*padding: 19px 38px;*/
+    width: 140px;
+    padding: 19px 20px;
     text-decoration: none;
 }
 
