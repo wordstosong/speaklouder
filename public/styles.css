@@ -45,13 +45,16 @@ ul {
 
 li {
     float: left;
+    width: 140px;
+    padding: 19px 20px;
 }
 
 li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 19px 38px;
+    letter-spacing: 3px;
+    /*padding: 19px 38px;*/
     text-decoration: none;
 }
 
@@ -170,7 +173,7 @@ h1 {
      .logo {
          float: left;
          display: block;
-         width:135px;
+         width:170px;
      }
      
      .logo img {
