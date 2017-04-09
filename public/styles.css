@@ -3,6 +3,11 @@ body {
   margin: 0;
 }
 
+.social-headers {
+    height: 32px;
+    width: 32px;
+}
+
 nav {
     background-color: #333333;
     width: 100%;
