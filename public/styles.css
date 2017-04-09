@@ -12,7 +12,7 @@ nav {
     margin-right: auto;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
   font-family: 'PT Sans';
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 700;
 }
 .logo {
@@ -55,7 +55,7 @@ li a {
     text-align: center;
     letter-spacing: 3px;
     width: 140px;
-    padding: 19px 20px;
+    padding: 22px;
     text-decoration: none;
 }
 
