@@ -4,7 +4,8 @@ body {
 }
 
 .social-headers {
-    
+    height: 32px;
+    width: 126px;
     display: none;
 }
 
@@ -172,19 +173,12 @@ h1 {
     .social-headers{
         display: inline-block;
         float:right;
-        height: 32px;
         margin-top:-40px;
         margin-right:50px;
     }
-    /*.social-headers div {
-        width: 126px;
-
-    }*/
+    
     .social-headers img {
         width: 32px
-    }
-    #twit-head {
-        margin: 0 10px;
     }
      nav{
         width:85%;
