@@ -3,12 +3,6 @@ body {
   margin: 0;
 }
 
-.social-headers {
-    height: 32px;
-    width: 126px;
-    display: none;
-}
-
 nav {
     background-color: #333333;
     width: 100%;
@@ -21,6 +15,13 @@ nav {
   font-size: 20px;
   font-weight: 700;
 }
+
+.social-headers {
+    height: 32px;
+    width: 106px;
+    display: none;
+}
+
 .logo {
     display:none;
     width:135px;
@@ -170,6 +171,14 @@ h1 {
 }
 
 @media only screen and (min-width: 650px){
+    
+    nav{
+        width:85%;
+        max-width:850px;
+        margin: auto;
+        margin-top: 100px;
+     }
+    
     .social-headers{
         display: block;
         float:right;
@@ -181,12 +190,6 @@ h1 {
         float: left;
         width: 32px
     }
-     nav{
-        width:85%;
-        max-width:850px;
-        margin: auto;
-        margin-top: 100px;
-     }
 
      .logo {
          float: left;
