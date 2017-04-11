@@ -22,6 +22,10 @@ nav {
     display: none;
 }
 
+#twit-head {
+    margin: 0 5px;
+}
+
 .logo {
     display:none;
     width:135px;
