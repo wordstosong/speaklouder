@@ -17,13 +17,9 @@ nav {
 }
 
 .social-headers {
-   /* height: 32px;
-    width: 106px;*/ 
+    height: 32px;
+    width: 106px; 
     display: none;
-}
-
-#twit-head {
-    margin: 0 5px;
 }
 
 .logo {
