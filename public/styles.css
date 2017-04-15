@@ -301,28 +301,32 @@ h1 {
   border-left: 1px solid #999;
   float:left;
   color: white;
-  font-size: 50px;
+  font-size: 30px;
+  padding: 15px;
 }
 #nav-previous{
   border-left: 1px solid #999;
   float:left;
   color: white;
-  font-size: 50px;
+  font-size: 30px;
+  padding: 15px 20px;
 }
 #nav-next{
    border-left: 1px solid #999;
   float:left;
   color: white;
-  font-size: 50px;
+  font-size: 30px;
+  padding: 19px 20px;
 }
 #nav-last{
   border-left: 1px solid #999;
   border-right: 1px solid #999;
   float:left;
   color: white;
-  font-size: 50px;
+  font-size: 30px;
+  padding: 19px 20px; 
 }
-        #sub-comic{
+#sub-comic{
     width: 90%;
     max-width: none;
     overflow: auto;
