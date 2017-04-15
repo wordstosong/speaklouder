@@ -302,21 +302,21 @@ h1 {
   float:left;
   color: white;
   font-size: 30px;
-  padding: 15px;
+  padding: 15px 17.845px;
 }
 #nav-previous{
   border-left: 1px solid #999;
   float:left;
   color: white;
   font-size: 30px;
-  padding: 15px 20px;
+  padding: 15px 22px;
 }
 #nav-next{
    border-left: 1px solid #999;
   float:left;
   color: white;
   font-size: 30px;
-  padding: 19px 20px;
+  padding: 19px 23.8px;
 }
 #nav-last{
   border-left: 1px solid #999;
@@ -324,7 +324,7 @@ h1 {
   float:left;
   color: white;
   font-size: 30px;
-  padding: 19px 20px; 
+  padding: 19px 19.15px; 
 }
 #sub-comic{
     width: 90%;
