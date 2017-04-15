@@ -116,7 +116,7 @@ li a:hover {
   padding-bottom:4.545%;
 }
 
-#comic-nav {
+#comic-nav-container {
     background-color: #333333;
     width: 100%;
     max-width: 440px;
@@ -230,7 +230,7 @@ h1 {
     #panel-4 {
       padding-bottom:121%;
       }
-    #comic-nav {
+    #comic-nav-container {
         width: 85%;
         max-width: 850px;
     }
@@ -277,10 +277,51 @@ h1 {
     #panel-4 {
       padding-bottom:32%;
       }
-    #comic-nav {
+    #comic-nav-container {
       width: 90%;
       max-width: none;
     }
+
+    .comic-nav{
+      border-top: 1px solid #999;
+      border-bottom: 1px solid #999;
+      height:75px; 
+      width: 96%;
+      margin:auto;
+}
+    .clearfix:after {
+      clear: both;
+      content: ".";
+      display: block;
+      height: 0;
+      line-height: 0;
+      visibility: hidden;
+}
+#nav-first{
+  border-left: 1px solid #999;
+  float:left;
+  color: white;
+  font-size: 50px;
+}
+#nav-previous{
+  border-left: 1px solid #999;
+  float:left;
+  color: white;
+  font-size: 50px;
+}
+#nav-next{
+   border-left: 1px solid #999;
+  float:left;
+  color: white;
+  font-size: 50px;
+}
+#nav-last{
+  border-left: 1px solid #999;
+  border-right: 1px solid #999;
+  float:left;
+  color: white;
+  font-size: 50px;
+}
         #sub-comic{
     width: 90%;
     max-width: none;
