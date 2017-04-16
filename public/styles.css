@@ -331,6 +331,10 @@ h1 {
     height: 50px;
     margin: 12.5px 0;
 }
+
+.social-share img:nth-child(2){
+    margin: 0 10px;
+}
 #sub-comic{
     width: 90%;
     max-width: none;
