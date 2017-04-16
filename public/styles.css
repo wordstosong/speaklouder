@@ -329,6 +329,7 @@ h1 {
 .social-share img{
     float: right;
     height: 50px;
+    margin: 12.5px 0;
 }
 #sub-comic{
     width: 90%;
