@@ -297,28 +297,28 @@ h1 {
       line-height: 0;
       visibility: hidden;
 }
-#nav-first{
+#nav-first a {
   border-left: 1px solid #999;
   float:left;
   color: white;
   font-size: 30px;
   padding: 15px 17.845px;
 }
-#nav-previous{
+#nav-previous a {
   border-left: 1px solid #999;
   float:left;
   color: white;
   font-size: 30px;
   padding: 15px 22px;
 }
-#nav-next{
+#nav-next a {
    border-left: 1px solid #999;
   float:left;
   color: white;
   font-size: 30px;
   padding: 19px 23.8px;
 }
-#nav-last{
+#nav-last a {
   border-left: 1px solid #999;
   border-right: 1px solid #999;
   float:left;
@@ -328,8 +328,7 @@ h1 {
 }
 
 .comic-nav a {
-    text-decoration: none;
-    color: white;
+    text-decoration: none;;
 }
 
 .comic-nav a:hover {
