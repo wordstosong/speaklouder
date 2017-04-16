@@ -327,6 +327,7 @@ h1 {
   padding: 19px 19.15px; 
 }
 .social-share img{
+    float: right;
     height: 50px;
 }
 #sub-comic{
