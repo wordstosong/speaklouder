@@ -288,7 +288,6 @@ h1 {
       height:75px; 
       width: 96%;
       margin:auto;
-      text-decoration: none;
 }
     .clearfix:after {
       clear: both;
@@ -326,6 +325,10 @@ h1 {
   color: white;
   font-size: 30px;
   padding: 19px 19.15px; 
+}
+
+.comic-nav a {
+    text-decoration: none;
 }
 
 .comic-nav a:hover {
