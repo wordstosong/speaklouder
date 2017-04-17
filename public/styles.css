@@ -125,6 +125,70 @@ li a:hover {
     margin-right:auto;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
 }
+
+.comic-nav{
+      border-top: 1px solid #999;
+      border-bottom: 1px solid #999;
+      height:75px; 
+      width: 96%;
+      margin:auto;
+}
+    .clearfix:after {
+      clear: both;
+      content: ".";
+      display: block;
+      height: 0;
+      line-height: 0;
+      visibility: hidden;
+}
+#nav-first a {
+  border-left: 1px solid #999;
+  float:left;
+  color: white;
+  font-size: 30px;
+  padding: 15px 17.845px;
+}
+#nav-previous a {
+  border-left: 1px solid #999;
+  float:left;
+  color: white;
+  font-size: 30px;
+  padding: 15px 22px;
+}
+#nav-next a {
+   border-left: 1px solid #999;
+  float:left;
+  color: white;
+  font-size: 30px;
+  padding: 19px 23.8px;
+}
+#nav-last a {
+  border-left: 1px solid #999;
+  border-right: 1px solid #999;
+  float:left;
+  color: white;
+  font-size: 30px;
+  padding: 19px 19.15px; 
+}
+
+.comic-nav a {
+    text-decoration: none;;
+}
+
+.comic-nav a:hover {
+    background-color: #111;
+}
+
+.social-share img{
+    float: right;
+    height: 50px;
+    margin: 12.5px 0;
+}
+
+.social-share img:nth-child(2){
+    margin: 12.5px 10px;
+}
+
 #sub-comic{
     width: 100%;
     max-width: 440px;
@@ -235,7 +299,7 @@ h1 {
         max-width: 850px;
     }
 
-        .comic-nav{
+    .comic-nav{
       border-top: 1px solid #999;
       border-bottom: 1px solid #999;
       height:75px; 
