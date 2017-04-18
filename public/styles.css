@@ -314,6 +314,10 @@ h1 {
       line-height: 0;
       visibility: hidden;
 }
+.mobile-social-share{
+    display:none;
+}
+
 #nav-first a {
   border-left: 1px solid #999;
   float:left;
