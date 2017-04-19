@@ -196,7 +196,8 @@ li a:hover {
 }
 
 .mobile-social-share img {
-    height:30px;
+    height:50px;
+    text-align: center;
 }
 .social-share{
     display: none;
