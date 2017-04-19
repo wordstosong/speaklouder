@@ -179,7 +179,7 @@ li a:hover {
   padding: 19px 19.15px; 
 }
 
-.left-pointing-triangle::after {
+.left-pointing-triangle {
   content: "\25C0 \FE0E";
 }
 
