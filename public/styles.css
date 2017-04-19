@@ -303,6 +303,7 @@ h1 {
     #comic-nav-container {
         width: 85%;
         max-width: 850px;
+        height: 90px;
     }
 
     .comic-nav{
