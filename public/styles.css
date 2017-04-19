@@ -127,10 +127,10 @@ li a:hover {
 }
 
 .comic-nav{
-      border-top: 1px solid #999;
-      border-bottom: 1px solid #999;
+      /*border-top: 1px solid #999;
+      border-bottom: 1px solid #999;*/
       height:75px; 
-      width: 96%;
+      width: 300px;
       margin:auto;
 }
     .clearfix:after {
@@ -334,6 +334,8 @@ h1 {
 }
 
 #nav-first a {
+  border-top:0;
+  border-bottom:0;  
   border-left: 1px solid #999;
   float:left;
   color: white;
@@ -341,6 +343,8 @@ h1 {
   padding: 15px 17.845px;
 }
 #nav-previous a {
+  border-top:0;
+  border-bottom:0;
   border-left: 1px solid #999;
   float:left;
   color: white;
@@ -348,13 +352,17 @@ h1 {
   padding: 15px 22px;
 }
 #nav-next a {
-   border-left: 1px solid #999;
+  border-top:0;
+  border-bottom:0;
+  border-left: 1px solid #999;
   float:left;
   color: white;
   font-size: 30px;
   padding: 19px 23.8px;
 }
 #nav-last a {
+  border-top:0;
+  border-bottom:0;
   border-left: 1px solid #999;
   border-right: 1px solid #999;
   float:left;
