@@ -179,7 +179,10 @@ li a:hover {
     background-color: #111;
 }
 
-.social-share img{
+.social-share{
+    display: none;
+}
+/*.social-share img{
     float: right;
     height: 50px;
     margin: 12.5px 0;
@@ -187,7 +190,7 @@ li a:hover {
 
 .social-share img:nth-child(2){
     margin: 12.5px 10px;
-}
+}*/
 
 #sub-comic{
     width: 100%;
@@ -354,6 +357,10 @@ h1 {
 
 .comic-nav a:hover {
     background-color: #111;
+}
+
+.social-share {
+    display: block;
 }
 
 .social-share img{
