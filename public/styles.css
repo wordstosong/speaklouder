@@ -179,6 +179,9 @@ li a:hover {
     background-color: #111;
 }
 
+.mobile-social-share img {
+    height:30px;
+}
 .social-share{
     display: none;
 }
