@@ -183,6 +183,9 @@ li a:hover {
   content: "\25C0 \FE0E";
 }
 
+.right-pointing-triangle::after {
+  content: "\25B6 \FE0E";
+
 .comic-nav a {
     text-decoration: none;;
 }
