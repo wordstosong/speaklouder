@@ -127,8 +127,8 @@ li a:hover {
 }
 
 .comic-nav{
-      /*border-top: 1px solid #999;
-      border-bottom: 1px solid #999;*/
+      border-top: 1px solid #999;
+      border-bottom: 1px solid #999;
       height:75px; 
       width: 96%;
       margin:auto;
