@@ -141,7 +141,7 @@ li a:hover {
       line-height: 0;
       visibility: hidden;
 }
-#nav-first a {
+#nav-first img {
   height: 75px;  
   border-top:1px solid #999;
   border-bottom:1px solid #999;
