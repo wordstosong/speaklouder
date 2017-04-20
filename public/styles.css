@@ -142,39 +142,33 @@ li a:hover {
       visibility: hidden;
 }
 #nav-first img {
-  height: 75px;  
+  height: 73px;  
   border-top:1px solid #999;
   border-bottom:1px solid #999;
   border-left: 1px solid #999;
   float:left;
 }
-#nav-previous a {
+#nav-previous img {
+  height: 73px;
   border-top:1px solid #999;
   border-bottom:1px solid #999;
   border-left: 1px solid #999;
   float:left;
-  color: white;
-  font-size: 30px;
-  padding: 15px 22px;
 }
-#nav-next a {
+#nav-next img {
+  height: 73px;
   border-top:1px solid #999;
   border-bottom:1px solid #999;
   border-left: 1px solid #999;
   float:left;
-  color: white;
-  font-size: 30px;
-  padding: 19px 23.8px;
 }
-#nav-last a {
+#nav-last img {
+  height: 73px;
   border-top:1px solid #999;
   border-bottom:1px solid #999;
   border-left: 1px solid #999;
   border-right: 1px solid #999;
   float:left;
-  color: white;
-  font-size: 30px;
-  padding: 19px 19.15px; 
 }
 
 
