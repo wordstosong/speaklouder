@@ -142,13 +142,11 @@ li a:hover {
       visibility: hidden;
 }
 #nav-first a {
+  height: 75px;  
   border-top:1px solid #999;
   border-bottom:1px solid #999;
   border-left: 1px solid #999;
   float:left;
-  color: white;
-  font-size: 30px;
-  padding: 15px 17.845px;
 }
 #nav-previous a {
   border-top:1px solid #999;
