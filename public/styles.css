@@ -179,13 +179,6 @@ li a:hover {
   padding: 19px 19.15px; 
 }
 
-.left-pointing-triangle::after {
-  content: "\25C0 \FE0E";
-}
-
-.right-pointing-triangle::after {
-  content: "\25B6 \FE0E";
-}
 
 .comic-nav a {
     text-decoration: none;;
@@ -195,9 +188,13 @@ li a:hover {
     background-color: #111;
 }
 
+.mobile-social-share{
+    text-align: center;
+}
+
 .mobile-social-share img {
     height:50px;
-    text-align: center;
+
 }
 .social-share{
     display: none;
