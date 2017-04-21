@@ -323,31 +323,26 @@ h1 {
 }
 
 #nav-first a {
-  /*border-top:0;
-  border-bottom:0;  
-  border-left: 1px solid #999;*/
+  border-top:0;
+  border-bottom:0;
   height:75px;
   float:left;
 }
 #nav-previous a {
-  /*border-top:0;
+  border-top:0;
   border-bottom:0;
-  border-left: 1px solid #999;*/
   height:75px;
   float:left;
 }
 #nav-next a {
-  /*border-top:0;
+  border-top:0;
   border-bottom:0;
-  border-left: 1px solid #999;*/
   height:75px
   float:left;
 }
 #nav-last a {
-  /*border-top:0;
+  border-top:0;
   border-bottom:0;
-  border-left: 1px solid #999;
-  border-right: 1px solid #999;*/
   height:75px;
   float:left;
 }
