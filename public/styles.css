@@ -370,7 +370,12 @@ h1 {
     max-width: 850px;
     overflow: auto;
 }
-}
+
+    #twitter-feed{
+        width: 90%;
+        padding-top: 15px;
+        margin:auto;
+    }
 /*@media only screen and (min-width: 900px){
    #comic-info {
         width: 65%;
@@ -482,10 +487,4 @@ h1 {
         float: left;
         margin-left: 2%;
         margin-top: 0;
-    }
-
-    #twitter-feed{
-        width: 90%;
-        padding-top: 15px;
-        margin:auto;
     }
