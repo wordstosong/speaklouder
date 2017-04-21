@@ -322,37 +322,29 @@ h1 {
     display:none;
 }
 
-#nav-first a {
+#nav-first img {
   border-top:0;
   border-bottom:0;
   height:75px;
   float:left;
 }
-#nav-previous a {
+#nav-previous img {
   border-top:0;
   border-bottom:0;
   height:75px;
   float:left;
 }
-#nav-next a {
+#nav-next img {
   border-top:0;
   border-bottom:0;
   height:75px
   float:left;
 }
-#nav-last a {
+#nav-last img {
   border-top:0;
   border-bottom:0;
   height:75px;
   float:left;
-}
-
-.comic-nav a {
-    text-decoration: none;;
-}
-
-.comic-nav a:hover {
-    background-color: #111;
 }
 
 .social-share {
