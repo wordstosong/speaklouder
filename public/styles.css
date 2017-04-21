@@ -257,7 +257,7 @@ h1 {
         width: 32px
     }
 
-    .social-headers img:nth-child(2) {
+    .social-headers:nth-child(2) {
         margin: 0 5px;
     }
 
