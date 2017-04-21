@@ -252,12 +252,12 @@ h1 {
         margin-top:-40px;
     }
     
-    .social-headers a  {
+    .social-headers img  {
         float: left;
         width: 32px
     }
 
-    .social-headers a :nth-child(2) {
+    .social-headers img :nth-child(2) {
         margin: 0 5px;
     }
 
