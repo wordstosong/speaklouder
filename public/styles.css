@@ -227,9 +227,8 @@ h1 {
 }
 
     #twitter-feed{
-        width: 90%;
-        padding-top: 15px;
-        margin:auto;
+        width: auto;
+        padding: 20px;
     }
 
 #footer {
