@@ -428,7 +428,7 @@ h1 {
       line-height: 0;
       visibility: hidden;
 }
-#nav-first a {
+/*#nav-first a {
   border-left: 1px solid #999;
   float:left;
   color: white;
@@ -456,15 +456,7 @@ h1 {
   color: white;
   font-size: 30px;
   padding: 19px 19.15px; 
-}
-
-.comic-nav a {
-    text-decoration: none;;
-}
-
-.comic-nav a:hover {
-    background-color: #111;
-}
+}*/
 
 .social-share img{
     float: right;
