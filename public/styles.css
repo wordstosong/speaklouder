@@ -17,8 +17,6 @@ nav {
 }
 
 .social-headers {
-    height: 32px;
-    width: 106px; 
     display: none;
 }
 
@@ -171,6 +169,7 @@ li a:hover {
   float:left;
 }
 
+
 .mobile-social-share{
     text-align: center;
 }
@@ -247,17 +246,18 @@ h1 {
      }
     
     .social-headers{
+        height: 32px;
         display: block;
         float:right;
         margin-top:-40px;
     }
     
-    .social-headers img  {
+    .social-headers img {
         float: left;
         width: 32px
     }
 
-    .social-headers img :nth-child(2) {
+    .social-headers img:nth-child(2) {
         margin: 0 5px;
     }
 
