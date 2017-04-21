@@ -485,32 +485,7 @@ h1 {
     }
 
     #twitter-feed{
-        width: 90%
+        width: 90%;
         padding-top: 15px;
         margin:auto;
     }
-
-/* @media only screen and (min-width: 440px) {
-    #nav{
-        width:85%;
-        margin: auto;
-    }
-    #comic-frame{
-        width: auto;
-}
-    #panel-1, #panel-2{
-        float: left;
-    }
-    
-
-            
-
-
-        }*/
-        /*.panels img {
-        background-color: white;
-        clear: both;
-        margin: 20px 3.125% 0;
-}
-*/
-
