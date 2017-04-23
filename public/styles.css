@@ -170,6 +170,7 @@ li a:hover {
 }
 
 .mobile-buttons{
+    width: 170px
     margin: auto;
 }
 .mobile-social-share{
@@ -181,6 +182,10 @@ li a:hover {
 .mobile-social-share img {
     height:50px;
     float: left;
+}
+
+.mobile-social-share a:nth-child(2) img{
+    margin: 0 10px;
 }
 .social-share{
     display: none;
