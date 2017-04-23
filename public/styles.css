@@ -169,16 +169,18 @@ li a:hover {
   float:left;
 }
 
-
+.mobile-buttons{
+    margin: auto;
+}
 .mobile-social-share{
     text-align: center;
     height: 50px;
     margin-bottom: 15px;
-    
 }
 
 .mobile-social-share img {
     height:50px;
+    float: left;
 }
 .social-share{
     display: none;
