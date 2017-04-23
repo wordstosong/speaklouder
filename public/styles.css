@@ -181,6 +181,7 @@ li a:hover {
     height:50px;
     padding:0;
     margin:0;
+    float:left;
 
 }
 .social-share{
