@@ -141,7 +141,7 @@ li a:hover {
       visibility: hidden;
 }
 
-.nav-buttons:hover {
+.nav-buttons a:hover {
     background-color:#111;
 }
 .nav-first img {
