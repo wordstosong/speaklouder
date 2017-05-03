@@ -350,28 +350,28 @@ h1 {
     display:none;
 }
 
-#nav-first img {
+.nav-first img {
   border-top:0;
   border-bottom:0;
   height:75px;
   width:75px;
   float:left;
 }
-#nav-previous img {
+.nav-previous img {
   border-top:0;
   border-bottom:0;
   height:75px;
   width:75px;
   float:left;
 }
-#nav-next img {
+.nav-next img {
   border-top:0;
   border-bottom:0;
   height:75px;
   width:75px;
   float:left;
 }
-#nav-last img {
+.nav-last img {
   border-top:0;
   border-bottom:0;
   height:75px;
