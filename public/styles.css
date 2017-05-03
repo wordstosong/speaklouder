@@ -140,28 +140,28 @@ li a:hover {
       line-height: 0;
       visibility: hidden;
 }
-#nav-first img {
+.nav-first img {
   height: 73px;  
   border-top:1px solid #999;
   border-bottom:1px solid #999;
   border-left: 1px solid #999;
   float:left;
 }
-#nav-previous img {
+.nav-previous img {
   height: 73px;
   border-top:1px solid #999;
   border-bottom:1px solid #999;
   border-left: 1px solid #999;
   float:left;
 }
-#nav-next img {
+.nav-next img {
   height: 73px;
   border-top:1px solid #999;
   border-bottom:1px solid #999;
   border-left: 1px solid #999;
   float:left;
 }
-#nav-last img {
+.nav-last img {
   height: 73px;
   border-top:1px solid #999;
   border-bottom:1px solid #999;
