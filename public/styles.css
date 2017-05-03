@@ -151,6 +151,9 @@ li a:hover {
   border-left: 1px solid #999;
   float:left;
 }
+.nav-first a:hover {
+    background: #111;
+}
 .nav-previous img {
   height: 73px;
   border-top:1px solid #999;
