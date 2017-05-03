@@ -148,7 +148,7 @@ li a:hover {
   float:left;
 }
 
-.nav-first img: hover {
+.nav-first a: hover {
     background-color: #111;
 }
 .nav-previous img {
