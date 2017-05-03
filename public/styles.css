@@ -140,6 +140,10 @@ li a:hover {
       line-height: 0;
       visibility: hidden;
 }
+
+.nav-buttons a:hover {
+    background:#111;
+}
 .nav-first img {
   height: 73px;  
   border-top:1px solid #999;
