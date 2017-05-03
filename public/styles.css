@@ -140,16 +140,16 @@ li a:hover {
       line-height: 0;
       visibility: hidden;
 }
-
-.nav-buttons img:hover {
-    background-color:#111;
-}
 .nav-first img {
   height: 73px;  
   border-top:1px solid #999;
   border-bottom:1px solid #999;
   border-left: 1px solid #999;
   float:left;
+}
+
+.nav-first img: hover {
+    background-color: #111;
 }
 .nav-previous img {
   height: 73px;
