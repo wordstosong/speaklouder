@@ -253,6 +253,15 @@ h1 {
         padding: 20px;
     }
 
+        .header-image {
+        width:80%;
+        margin:auto;
+    }
+    .header-image img {
+        width:100%;
+        margin:auto;
+    }
+
 .footer {
     background-color: #333333;
     clear: left;
@@ -512,13 +521,6 @@ h1 {
         margin-left: 2%;
         margin-top: 0;
     }
-    .header-image {
-        width:80%;
-        margin:auto;
-    }
-    .header-image img {
-        width:100%;
-        margin:auto;
-    }
+
 }
 }
