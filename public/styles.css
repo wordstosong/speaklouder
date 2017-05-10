@@ -513,7 +513,8 @@ h1 {
         margin-top: 0;
     }
     .header-image {
-        width: 900px;
+        height: 200px;
+        margin:auto;
     }
 }
 }
