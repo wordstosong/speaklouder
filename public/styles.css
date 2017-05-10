@@ -87,7 +87,7 @@ li a:hover {
     background-color: #111;
 }
 
-#comic-frame {
+.comic-frame {
     background-color: #333333;
     width: 100%;
     max-width: 440px;
@@ -110,11 +110,11 @@ li a:hover {
  
 }
 
-#panel-4 {
+.panel-4 {
   padding-bottom:4.545%;
 }
 
-#comic-nav-container {
+.comic-nav-container {
     background-color: #333333;
     width: 100%;
     max-width: 440px;
@@ -213,12 +213,12 @@ li a:hover {
     margin: 12.5px 10px;
 }*/
 
-#sub-comic{
+.sub-comic{
     width: 100%;
     max-width: 440px;
     margin: 20px auto;
 }
-#comic-info {
+.comic-info {
     background-color: #F8EBD1;
     /*float: ;*/
     height: 750px;
@@ -233,14 +233,14 @@ h1 {
   font-weight: bold;
 }
 
-#date{
+.date{
   padding: 0 20px 20px 20px;
   margin:0;
   font-family: 'PT Sans';
   font-size: 16px;
 }
 
-#sidebar-right {
+.sidebar-right {
     background-color: #F8EBD1;
     /*float:;*/
     height: 340px;
@@ -248,12 +248,12 @@ h1 {
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
 }
 
-    #twitter-feed{
+    .twitter-feed{
         width: auto;
         padding: 20px;
     }
 
-#footer {
+.footer {
     background-color: #333333;
     clear: left;
     width: 100%;
@@ -309,7 +309,7 @@ h1 {
      .burger {
          display: none;
      }
-     #comic-frame{
+     .comic-frame{
         width:85%;
         max-width:850px;
         overflow: auto;
@@ -321,10 +321,10 @@ h1 {
       float: left; 
       padding: 2% 0 0 2%;
     }
-    #panel-4 {
+    .panel-4 {
       padding-bottom:121%;
       }
-    #comic-nav-container {
+    .comic-nav-container {
         width: 85%;
         max-width: 850px;
         height: 90px;
@@ -393,7 +393,7 @@ h1 {
     margin: 12.5px 10px;
 }
 
-    #sub-comic{
+    .sub-comic{
     width: 85%;
     max-width: 850px;
     overflow: auto;
@@ -421,7 +421,7 @@ h1 {
         margin: auto;
         margin-top: 100px;
      }
-     #comic-frame{
+     .comic-frame{
         width:90%;
         max-width:none;
         overflow: auto;
@@ -433,10 +433,10 @@ h1 {
       float: left; 
       padding: 2% 0 0 2%;
     }
-    #panel-4 {
+    .panel-4 {
       padding-bottom:32%;
       }
-    #comic-nav-container {
+    .comic-nav-container {
       width: 90%;
       max-width: none;
     }
@@ -495,17 +495,17 @@ h1 {
 .social-share img:nth-child(2){
     margin: 12.5px 10px;
 }*/
-#sub-comic{
+.sub-comic{
     width: 90%;
     max-width: none;
     overflow: auto;
 }
-   #comic-info {
+   .comic-info {
         width: 65%;
         /*max-width:600px;*/
         float: left;
     }
-    #sidebar-right {
+   .sidebar-right {
         width: 33%;
         max-width: none;
         float: left;
