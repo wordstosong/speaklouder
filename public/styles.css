@@ -262,6 +262,11 @@ h1 {
         margin:auto;
     }
 
+.about-text {
+    background-color: #F8EBD1;
+    height: 750px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+}
 .footer {
     background-color: #333333;
     clear: left;
@@ -408,6 +413,9 @@ h1 {
     overflow: auto;
 }
 
+.about-text {
+    width: 65%;
+}
 
 /*@media only screen and (min-width: 900px){
    #comic-info {
