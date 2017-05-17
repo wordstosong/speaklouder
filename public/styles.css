@@ -264,6 +264,7 @@ h1 {
     }
 
 .about-text {
+    margin: 20px auto;
     background-color: #F8EBD1;
     height: auto;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
@@ -422,7 +423,7 @@ h1 {
 
 .about-text {
     width: 65%;
-    margin: 20px auto;
+    /*margin: 20px auto;*/
 }
 
 /*@media only screen and (min-width: 900px){
