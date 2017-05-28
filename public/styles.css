@@ -447,8 +447,12 @@ h1 {
         margin: auto;
         margin-top: 100px;
      }
+     .content{
+         width:90%;
+         margin:auto;
+     }
      .comic-frame{
-        width:90%;
+        width:100%;
         max-width:none;
         overflow: auto;
     }
@@ -463,7 +467,7 @@ h1 {
       padding-bottom:32%;
       }
     .comic-nav-container {
-      width: 90%;
+      width: 100%;
       max-width: none;
     }
 
@@ -522,7 +526,7 @@ h1 {
     margin: 12.5px 10px;
 }*/
 .sub-comic{
-    width: 90%;
+    width: 100%;
     max-width: none;
     overflow: auto;
 }
