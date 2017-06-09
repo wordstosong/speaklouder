@@ -13,12 +13,13 @@ nav {
     font-size: 20px;
     font-weight: 700;
     position: relative;
+    z-index: -100;
+    background: #333;
 }
 
-nav::after {
+nav::before {
     content: '';
-    z-index: -1;
-    background-image: url('images/logo-brick-small.png');
+    background-image: url('images/header/logo-brick-small.png');
     background-repeat: no-repeat;
     position: absolute;
     top: 0;
@@ -26,6 +27,7 @@ nav::after {
     background-size: cover;
     width: 444px;
     height: 114px;
+    z-index: -10;
 }
 
 .social-headers {
@@ -320,7 +322,7 @@ h1 {
         display: block;
         width: calc(334px / 2);
         height: calc(274px / 2);
-        background-image: url(images/logo-brick.png);
+        background-image: url(images/header/logo-brick.png);
         background-size: calc(400px / 2) calc(274px / 2);
         margin-top: -44px;
         margin-left: -13px;
@@ -332,11 +334,12 @@ h1 {
         width: calc(100% - (334px / 2) + 13px - 5px);
         height: 75px;
         position: absolute;
+        left: initial;
         right: 5px;
-        background-image: url(images/brick-shadow.png);
+        background-image: url(images/header/brick-shadow.png);
         background-size: 10px 74px;
         background-repeat: repeat-x;
-        z-index: -1;
+        z-index: -10;
     }
 
     nav::after {
@@ -347,9 +350,10 @@ h1 {
         top: -44px;
         width: 10px;
         height: calc(274px / 2);
-        background-image: url(images/logo-brick.png);
+        background-image: url(images/header/logo-brick.png);
         background-size: calc(400px / 2) calc(274px / 2);
         background-position-x: 100%;
+        z-index: -10;
     }
 
     .menu {
