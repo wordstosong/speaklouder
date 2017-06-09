@@ -25,9 +25,16 @@ nav::before {
     top: 0;
     left: 0;
     background-size: cover;
-    width: 444px;
     height: 114px;
     z-index: -10;
+    width: 100%;
+    background-position-x: center;
+}
+
+@media only screen and (min-width: 445px) {
+    nav::before {
+        width: 444px;
+    }
 }
 
 .social-headers {
