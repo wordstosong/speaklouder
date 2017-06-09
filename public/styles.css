@@ -4,39 +4,32 @@ body {
 }
 
 nav {
-    background-color: #333333;
     width: 100%;
     max-width: 440px;
     height: 70px;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
     font-family: 'PT Sans';
     font-size: 20px;
     font-weight: 700;
+    position: relative;
+}
+
+nav::after {
+    content: '';
+    z-index: -1;
+    background-image: url('images/logo-brick-small.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    width: 444px;
+    height: 114px;
 }
 
 .social-headers {
     display: none;
-}
-
-.logo {
-    display: none;
-    width: 135px;
-}
-
-.logo-small {
-    float: left;
-    position: relative;
-    left: 50%;
-}
-
-.logo-small img {
-    float: left;
-    position: relative;
-    left: -50%;
-    height: 125px;
-    margin-top: -20px;
 }
 
 .menu {
@@ -321,30 +314,44 @@ h1 {
     .social-headers a:nth-child(2) img {
         margin: 0 5px;
     }
+
     .logo {
         float: left;
         display: block;
-        width: 170px;
+        width: calc(334px / 2);
+        height: calc(274px / 2);
+        background-image: url(images/logo-brick.png);
+        background-size: calc(400px / 2) calc(274px / 2);
+        margin-top: -44px;
+        margin-left: -13px;
+        margin-bottom: 20px;
     }
-    .logo img {
-        height: 150px;
-        margin-top: -50px;
-        margin-left: -20px;
-    }
-    .logo-shadow {
-        float: left;
-        display: block;
-        width: 170px;
+
+    nav::before {
+        content: '';
+        width: calc(100% - (334px / 2) + 13px - 5px);
+        height: 75px;
+        position: absolute;
+        right: 5px;
+        background-image: url(images/brick-shadow.png);
+        background-size: 10px 74px;
+        background-repeat: repeat-x;
         z-index: -1;
     }
-    .logo-shadow img {
-        height: 150px;
-        margin-top: -50px;
-        margin-left: -20px;
+
+    nav::after {
+        content: '';
+        position: absolute;
+        left: initial;
+        right: -5px;
+        top: -44px;
+        width: 10px;
+        height: calc(274px / 2);
+        background-image: url(images/logo-brick.png);
+        background-size: calc(400px / 2) calc(274px / 2);
+        background-position-x: 100%;
     }
-    .logo-small {
-        display: none;
-    }
+
     .menu {
         display: block;
     }
