@@ -17,7 +17,11 @@ nav {
     background: #333;
 }
 
-nav::before {
+.logo {
+    display: none;
+}
+
+.logo-small {
     content: '';
     background-image: url('images/header/logo-brick-small.png');
     background-repeat: no-repeat;
@@ -32,7 +36,7 @@ nav::before {
 }
 
 @media only screen and (min-width: 445px) {
-    nav::before {
+    .logo-small {
         width: 444px;
     }
 }
@@ -324,6 +328,10 @@ h1 {
         margin: 0 5px;
     }
 
+    .logo-small {
+        display: none;
+    }
+
     .logo {
         float: left;
         display: block;
@@ -341,7 +349,6 @@ h1 {
         width: calc(100% - (334px / 2) + 13px - 5px);
         height: 75px;
         position: absolute;
-        left: initial;
         right: 5px;
         background-image: url(images/header/brick-shadow.png);
         background-size: 10px 74px;
@@ -352,7 +359,6 @@ h1 {
     nav::after {
         content: '';
         position: absolute;
-        left: initial;
         right: -5px;
         top: -44px;
         width: 10px;
