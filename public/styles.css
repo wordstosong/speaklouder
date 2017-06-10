@@ -1,46 +1,54 @@
 body {
-  background: linear-gradient(45deg, #415A85 , #415A85);
-  margin: 0;
+    background: linear-gradient(45deg, #415A85, #415A85);
+    margin: 0;
 }
 
 nav {
-    background-color: #333333;
     width: 100%;
     max-width: 440px;
     height: 70px;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
-  font-family: 'PT Sans';
-  font-size: 20px;
-  font-weight: 700;
+    font-family: 'PT Sans';
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    z-index: -100;
+    background: #333;
+}
+
+.logo {
+    display: none;
+}
+
+.logo-small {
+    content: '';
+    background-image: url('images/header/logo-brick-small.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    height: 114px;
+    z-index: -10;
+    width: 100%;
+    background-position-x: center;
+}
+
+@media only screen and (min-width: 445px) {
+    .logo-small {
+        width: 444px;
+    }
 }
 
 .social-headers {
     display: none;
 }
 
-.logo {
-    display:none;
-    width:135px;
-}
-
-.logo-small {
-    float: left;
-    position: relative;
-    left: 50%;
-}
-
-.logo-small img {
-    float: left;
-    position: relative;
-    left: -50%;
-    height: 125px;
-    margin-top: -20px;
-}
 .menu {
     display: none;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -50,8 +58,6 @@ ul {
 
 li {
     float: left;
-    
-    
 }
 
 li a {
@@ -67,6 +73,7 @@ li a {
 li a:hover {
     background-color: #111;
 }
+
 .burger {
     float: right;
     font-family: arial;
@@ -77,10 +84,10 @@ li a:hover {
 }
 
 .burger a {
- text-decoration: none;
- color: #F8EBD1;
- padding:0 10px;
- margin-right: 5px;
+    text-decoration: none;
+    color: #F8EBD1;
+    padding: 0 10px;
+    margin-right: 5px;
 }
 
 .burger a:hover {
@@ -97,21 +104,22 @@ li a:hover {
     margin-right: auto;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
 }
+
+
 /*#panels{
      
-}*/ 
+}*/
 
 .panels img {
-  /*float:left;*/
-  /*background-color: white;*/
-  width: 91%;
-  max-width: 400px;
-  padding: 4.545% 4.545% 0;
- 
+    /*float:left;*/
+    /*background-color: white;*/
+    width: 91%;
+    max-width: 400px;
+    padding: 4.545% 4.545% 0;
 }
 
 .panel-4 {
-  padding-bottom:4.545%;
+    padding-bottom: 4.545%;
 }
 
 .comic-nav-container {
@@ -120,89 +128,102 @@ li a:hover {
     max-width: 440px;
     height: auto;
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
 }
 
-.comic-nav{
-      /*border-top: 1px solid #999;
+.comic-nav {
+    /*border-top: 1px solid #999;
       border-bottom: 1px solid #999;*/
-      height:75px; 
-      width: 300px;
-      margin:auto;
-      padding-bottom: 20px;
+    height: 75px;
+    width: 300px;
+    margin: auto;
+    padding-bottom: 20px;
 }
-    .clearfix:after {
-      clear: both;
-      content: ".";
-      display: block;
-      height: 0;
-      line-height: 0;
-      visibility: hidden;
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
 }
+
 .nav-first img {
-  height: 73px;  
-  border-top:1px solid #999;
-  border-bottom:1px solid #999;
-  border-left: 1px solid #999;
-  float:left;
+    height: 73px;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    float: left;
 }
 
 .nav-first img:hover {
     background-color: #111;
 }
+
 .nav-previous img {
-  height: 73px;
-  border-top:1px solid #999;
-  border-bottom:1px solid #999;
-  border-left: 1px solid #999;
-  float:left;
+    height: 73px;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    float: left;
 }
+
 .nav-previous img:hover {
     background-color: #111;
 }
+
 .nav-next img {
-  height: 73px;
-  border-top:1px solid #999;
-  border-bottom:1px solid #999;
-  border-left: 1px solid #999;
-  float:left;
+    height: 73px;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    float: left;
 }
+
 .nav-next img:hover {
     background-color: #111;
 }
+
 .nav-last img {
-  height: 73px;
-  border-top:1px solid #999;
-  border-bottom:1px solid #999;
-  border-left: 1px solid #999;
-  border-right: 1px solid #999;
-  float:left;
+    height: 73px;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    float: left;
 }
+
 .nav-last img:hover {
     background-color: #111;
 }
-.mobile-buttons{
+
+.mobile-buttons {
     width: 170px;
     margin: auto;
 }
-.mobile-social-share{
+
+.mobile-social-share {
     text-align: center;
     height: 50px;
     margin-bottom: 15px;
 }
 
 .mobile-social-share img {
-    height:50px;
+    height: 50px;
     float: left;
 }
 
-.mobile-social-share a:nth-child(2) img{
+.mobile-social-share a:nth-child(2) img {
     margin: 0 10px;
 }
-.social-share{
+
+.social-share {
     display: none;
 }
+
+
 /*.social-share img{
     float: right;
     height: 50px;
@@ -213,11 +234,12 @@ li a:hover {
     margin: 12.5px 10px;
 }*/
 
-.sub-comic{
+.sub-comic {
     width: 100%;
     max-width: 440px;
     margin: 20px auto;
 }
+
 .comic-info {
     padding: 20px;
     background-color: #F8EBD1;
@@ -227,18 +249,18 @@ li a:hover {
 }
 
 h1 {
-  /*padding:20px 20px 0 20px;*/
-  margin:0;
-  font-family: 'PT Sans Narrow';
-  font-size: 25px;
-  font-weight: bold;
+    /*padding:20px 20px 0 20px;*/
+    margin: 0;
+    font-family: 'PT Sans Narrow';
+    font-size: 25px;
+    font-weight: bold;
 }
 
-.date{
-  padding-bottom: 20px;
-  margin:0;
-  font-family: 'PT Sans';
-  font-size: 16px;
+.date {
+    padding-bottom: 20px;
+    margin: 0;
+    font-family: 'PT Sans';
+    font-size: 16px;
 }
 
 .sidebar-right {
@@ -249,19 +271,20 @@ h1 {
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
 }
 
-    .twitter-feed{
-        width: auto;
-        padding: 20px;
-    }
+.twitter-feed {
+    width: auto;
+    padding: 20px;
+}
 
-        .header-image {
-        width:80%;
-        margin:auto;
-    }
-    .header-image img {
-        width:100%;
-        margin:auto;
-    }
+.header-image {
+    width: 80%;
+    margin: auto;
+}
+
+.header-image img {
+    width: 100%;
+    margin: auto;
+}
 
 .about-text {
     margin: 20px auto;
@@ -280,163 +303,165 @@ h1 {
     clear: left;
     width: 100%;
     height: 94px;
-    margin:auto;
+    margin: auto;
     border-top: 6px solid #C13738;
-
 }
 
-@media only screen and (min-width: 650px){
-    
-    nav{
-        width:85%;
-        max-width:850px;
+@media only screen and (min-width: 650px) {
+    nav {
+        width: 85%;
+        max-width: 850px;
         margin: auto;
         margin-top: 100px;
-     }
-    
-    .social-headers{
+    }
+    .social-headers {
         height: 32px;
         display: block;
-        float:right;
-        margin-top:-40px;
+        float: right;
+        margin-top: -40px;
     }
-    
     .social-headers img {
         float: left;
         width: 32px
     }
-
     .social-headers a:nth-child(2) img {
         margin: 0 5px;
     }
 
-     .logo {
-         float: left;
-         display: block;
-         width:170px;
-     }
-     
-     .logo img {
-         height: 150px;
-         margin-top: -50px;
-         margin-left: -20px;
-     }
-    .logo-shadow {
-        float: left;
-        display: block;
-        width:170px;
-        z-index: -1;
-    }
-    .logo-shadow img {
-        height: 150px;
-        margin-top: -50px;
-        margin-left: -20px;
-    }
-     .logo-small {
-         display: none;
-     }
-     .menu {
-         display: block;
-     }
-     .burger {
-         display: none;
-     }
-     .comic-frame{
-        width:85%;
-        max-width:850px;
-        overflow: auto;
+    .logo-small {
+        display: none;
     }
 
+    .logo {
+        float: left;
+        display: block;
+        width: calc(334px / 2);
+        height: calc(274px / 2);
+        background-image: url(images/header/logo-brick.png);
+        background-size: calc(400px / 2) calc(274px / 2);
+        margin-top: -44px;
+        margin-left: -13px;
+        margin-bottom: 20px;
+    }
+
+    nav::before {
+        content: '';
+        width: calc(100% - (334px / 2) + 13px - 5px);
+        height: 75px;
+        position: absolute;
+        right: 5px;
+        background-image: url(images/header/brick-shadow.png);
+        background-size: 10px 74px;
+        background-repeat: repeat-x;
+        z-index: -10;
+    }
+
+    nav::after {
+        content: '';
+        position: absolute;
+        right: -5px;
+        top: -44px;
+        width: 10px;
+        height: calc(274px / 2);
+        background-image: url(images/header/logo-brick.png);
+        background-size: calc(400px / 2) calc(274px / 2);
+        background-position-x: 100%;
+        z-index: -10;
+    }
+
+    .menu {
+        display: block;
+    }
+    .burger {
+        display: none;
+    }
+    .comic-frame {
+        width: 85%;
+        max-width: 850px;
+        overflow: auto;
+    }
     .panels img {
-      width:47%;
-      max-width:400px;
-      float: left; 
-      padding: 2% 0 0 2%;
+        width: 47%;
+        max-width: 400px;
+        float: left;
+        padding: 2% 0 0 2%;
     }
     .panel-4 {
-      padding-bottom:121%;
-      }
+        padding-bottom: 121%;
+    }
     .comic-nav-container {
         width: 85%;
         max-width: 850px;
         height: 90px;
     }
-
-    .comic-nav{
-      border-top: 1px solid #999;
-      border-bottom: 1px solid #999;
-      height:75px; 
-      width: 96%;
-      margin:auto;
-      padding-bottom:0;
-}
+    .comic-nav {
+        border-top: 1px solid #999;
+        border-bottom: 1px solid #999;
+        height: 75px;
+        width: 96%;
+        margin: auto;
+        padding-bottom: 0;
+    }
     .clearfix:after {
-      clear: both;
-      content: ".";
-      display: block;
-      height: 0;
-      line-height: 0;
-      visibility: hidden;
-}
-.mobile-social-share{
-    display:none;
-}
-
-.nav-first img {
-  border-top:0;
-  border-bottom:0;
-  height:75px;
-  width:75px;
-  float:left;
-}
-.nav-previous img {
-  border-top:0;
-  border-bottom:0;
-  height:75px;
-  width:75px;
-  float:left;
-}
-.nav-next img {
-  border-top:0;
-  border-bottom:0;
-  height:75px;
-  width:75px;
-  float:left;
-}
-.nav-last img {
-  border-top:0;
-  border-bottom:0;
-  height:75px;
-  width:75px;
-  float:left;
-}
-
-.social-share {
-    display: block;
-}
-
-.social-share img{
-    float: right;
-    height: 50px;
-    margin: 12.5px 0;
-}
-
-.social-share a:nth-child(2) img{
-    margin: 12.5px 10px;
-}
-
-    .sub-comic{
-    width: 85%;
-    max-width: 850px;
-    overflow: auto;
-}
-
-.about-text {
-    width: 65%;
-    /*margin: 20px auto;*/
-}
-
-/*@media only screen and (min-width: 900px){
+        clear: both;
+        content: ".";
+        display: block;
+        height: 0;
+        line-height: 0;
+        visibility: hidden;
+    }
+    .mobile-social-share {
+        display: none;
+    }
+    .nav-first img {
+        border-top: 0;
+        border-bottom: 0;
+        height: 75px;
+        width: 75px;
+        float: left;
+    }
+    .nav-previous img {
+        border-top: 0;
+        border-bottom: 0;
+        height: 75px;
+        width: 75px;
+        float: left;
+    }
+    .nav-next img {
+        border-top: 0;
+        border-bottom: 0;
+        height: 75px;
+        width: 75px;
+        float: left;
+    }
+    .nav-last img {
+        border-top: 0;
+        border-bottom: 0;
+        height: 75px;
+        width: 75px;
+        float: left;
+    }
+    .social-share {
+        display: block;
+    }
+    .social-share img {
+        float: right;
+        height: 50px;
+        margin: 12.5px 0;
+    }
+    .social-share a:nth-child(2) img {
+        margin: 12.5px 10px;
+    }
+    .sub-comic {
+        width: 85%;
+        max-width: 850px;
+        overflow: auto;
+    }
+    .about-text {
+        width: 65%;
+        /*margin: 20px auto;*/
+    }
+    /*@media only screen and (min-width: 900px){
    #comic-info {
         width: 65%;
         float: left;
@@ -448,55 +473,54 @@ h1 {
         margin-left: 2%;
         margin-top: 0;
     }
+*/
+}
 
-}*/
-@media only screen and (min-width: 900px){
-     nav{
-        width:90%;
-        max-width:none;
+@media only screen and (min-width: 900px) {
+    nav {
+        width: 90%;
+        max-width: none;
         margin: auto;
         margin-top: 100px;
-     }
-     .content{
-         width:90%;
-         margin:auto;
-     }
-     .comic-frame{
-        width:100%;
-        max-width:none;
+    }
+    .content {
+        width: 90%;
+        margin: auto;
+    }
+    .comic-frame {
+        width: 100%;
+        max-width: none;
         overflow: auto;
     }
-
     .panels img {
-      width:22.5%;
-      max-width:400px;
-      float: left; 
-      padding: 2% 0 0 2%;
+        width: 22.5%;
+        max-width: 400px;
+        float: left;
+        padding: 2% 0 0 2%;
     }
     .panel-4 {
-      padding-bottom:32%;
-      }
-    .comic-nav-container {
-      width: 100%;
-      max-width: none;
+        padding-bottom: 32%;
     }
-
-    .comic-nav{
-      border-top: 1px solid #999;
-      border-bottom: 1px solid #999;
-      height:75px; 
-      width: 96%;
-      margin:auto;
-}
+    .comic-nav-container {
+        width: 100%;
+        max-width: none;
+    }
+    .comic-nav {
+        border-top: 1px solid #999;
+        border-bottom: 1px solid #999;
+        height: 75px;
+        width: 96%;
+        margin: auto;
+    }
     .clearfix:after {
-      clear: both;
-      content: ".";
-      display: block;
-      height: 0;
-      line-height: 0;
-      visibility: hidden;
-}
-/*#nav-first a {
+        clear: both;
+        content: ".";
+        display: block;
+        height: 0;
+        line-height: 0;
+        visibility: hidden;
+    }
+    /*#nav-first a {
   border-left: 1px solid #999;
   float:left;
   color: white;
@@ -525,8 +549,7 @@ h1 {
   font-size: 30px;
   padding: 19px 19.15px; 
 }*/
-
-/*.social-share img{
+    /*.social-share img{
     float: right;
     height: 50px;
     margin: 12.5px 0;
@@ -535,23 +558,21 @@ h1 {
 .social-share img:nth-child(2){
     margin: 12.5px 10px;
 }*/
-.sub-comic{
-    width: 100%;
-    max-width: none;
-    overflow: auto;
-}
-   .comic-info {
+    .sub-comic {
+        width: 100%;
+        max-width: none;
+        overflow: auto;
+    }
+    .comic-info {
         width: 60%;
         /*max-width:600px;*/
         float: left;
     }
-   .sidebar-right {
+    .sidebar-right {
         width: 34%;
         max-width: none;
         float: right;
-       /* margin-left: 2%;*/
+        /* margin-left: 2%;*/
         margin-top: 0;
     }
-
-}
 }
