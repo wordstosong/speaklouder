@@ -307,6 +307,9 @@ h1 {
     border-top: 6px solid #C13738;
 }
 
+.footer p {
+    text-align:center
+}
 @media only screen and (min-width: 650px) {
     nav {
         width: 85%;
