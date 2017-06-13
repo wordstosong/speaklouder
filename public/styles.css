@@ -13,7 +13,6 @@ nav {
     font-size: 20px;
     font-weight: 700;
     position: relative;
-    z-index: -100;
     background: #333;
 }
 
@@ -308,11 +307,11 @@ h1 {
 }
 
 .footer p {
-    text-align:center;
+    text-align: center;
     color: #fff;
     font-family: 'PT Sans';
-
 }
+
 @media only screen and (min-width: 650px) {
     nav {
         width: 85%;
@@ -328,16 +327,14 @@ h1 {
     }
     .social-headers img {
         float: left;
-        width: 32px
+        width: 32px;
     }
     .social-headers a:nth-child(2) img {
         margin: 0 5px;
     }
-
     .logo-small {
         display: none;
     }
-
     .logo {
         float: left;
         display: block;
@@ -349,32 +346,30 @@ h1 {
         margin-left: -13px;
         margin-bottom: 20px;
     }
-
     nav::before {
         content: '';
-        width: calc(100% - (334px / 2) + 13px - 5px);
-        height: 75px;
+        width: calc(100% - (334px / 2) + 13px);
+        height: 4px;
         position: absolute;
-        right: 5px;
+        right: 0;
+        bottom: -4px;
         background-image: url(images/header/brick-shadow.png);
-        background-size: 10px 74px;
+        background-size: 10px 4px;
         background-repeat: repeat-x;
         z-index: -10;
     }
-
     nav::after {
         content: '';
         position: absolute;
         right: -5px;
         top: -44px;
-        width: 10px;
+        width: 5px;
         height: calc(274px / 2);
         background-image: url(images/header/logo-brick.png);
         background-size: calc(400px / 2) calc(274px / 2);
         background-position-x: 100%;
         z-index: -10;
     }
-
     .menu {
         display: block;
     }
