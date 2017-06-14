@@ -1,4 +1,5 @@
 var expressServer = require('express');
+var chalk = require('chalk');
 
 var app = expressServer();
 
@@ -9,5 +10,5 @@ var defaultPort = 8081;
 
 var port = process.env.PORT || defaultPort;
 app.listen(port, function() {
-    console.log('server is listening on port ' + port);
+    console.log(chalk.blue('server is listening on port ' + port));
 });
