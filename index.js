@@ -1,7 +1,19 @@
-var expressServer = require('express');
 var chalk = require('chalk');
+var exphbs  = require('express-handlebars');
+var expressServer = require('express');
 
 var app = expressServer();
+
+app.engine('handlebars', exphbs({defaultLayout: 'main'}));
+app.set('view engine', 'handlebars');
+
+app.get('/', function (req, res) {
+    res.render('home');
+});
+
+app.get('/about', function (req, res) {
+    res.render('about');
+});
 
 app.use(expressServer.static('public'));
 
