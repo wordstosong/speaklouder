@@ -14,6 +14,7 @@ nav {
   font-weight: 700;
   position: relative;
   background: #333;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
 }
 
 nav > * {
@@ -339,35 +340,13 @@ h1 {
   .logo {
     float: left;
     display: block;
-    width: calc(334px / 2);
+    width: calc(336px / 2);
     height: calc(274px / 2);
     background-image: url(images/header/logo-brick.png);
-    background-size: calc(400px / 2) calc(274px / 2);
-    margin-top: -44px;
+    background-size: calc(336px / 2) calc(274px / 2);
+    margin-top: -43px;
     margin-left: -13px;
     margin-bottom: 20px;
-  }
-  nav::before {
-    content: '';
-    width: calc(100% - (334px / 2) + 13px);
-    height: 4px;
-    position: absolute;
-    right: 0;
-    bottom: -4px;
-    background-image: url(images/header/brick-shadow.png);
-    background-size: 10px 4px;
-    background-repeat: repeat-x;
-  }
-  nav::after {
-    content: '';
-    position: absolute;
-    right: -5px;
-    top: -44px;
-    width: 5px;
-    height: calc(274px / 2);
-    background-image: url(images/header/logo-brick.png);
-    background-size: calc(400px / 2) calc(274px / 2);
-    background-position-x: 100%;
   }
   .menu {
     display: block;
