@@ -17,24 +17,20 @@ nav {
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
 }
 
-nav > * {
-  position: relative;
-}
-
 .logo {
   display: none;
 }
 
 .logo-small {
   content: '';
-  background-image: url('images/header/logo-brick-small.png');
+  background-image: url(images/header/logo-brick-small.png);
   background-repeat: no-repeat;
   position: absolute;
   top: 0;
-  left: 0;
-  background-size: cover;
+  left: calc(50% - (334px / 2) / 2);
+  background-size: contain;
   height: 114px;
-  width: 100%;
+  width: calc(334px / 2);
   background-position-x: center;
 }
 
