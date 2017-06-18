@@ -22,7 +22,7 @@ app.get('/about', function (req, res) {
 });
 
 pp.get('/archive', function (req, res) {
-    res.render('archive', { title: title + ' | About' });
+    res.render('archive', { title: title + ' | Archive' });
 });
 
 app.use(expressServer.static('public'));
