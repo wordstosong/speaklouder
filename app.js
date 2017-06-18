@@ -21,6 +21,10 @@ app.get('/about', function (req, res) {
     res.render('about', { title: title + ' | About' });
 });
 
+pp.get('/archive', function (req, res) {
+    res.render('archive', { title: title + ' | About' });
+});
+
 app.use(expressServer.static('public'));
 
 var defaultPort = 8081;
