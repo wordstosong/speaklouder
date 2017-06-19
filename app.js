@@ -25,6 +25,10 @@ app.get('/archive', function (req, res) {
     res.render('archive', { title: title + ' | Archive' });
 });
 
+app.get('/cast', function (req, res) {
+    res.render('cast', { title: title + ' | Cast' });
+});
+
 app.use(expressServer.static('public'));
 
 var defaultPort = 8081;
