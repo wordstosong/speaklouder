@@ -327,7 +327,7 @@ h1 {
     width: 32px;
     background-color: #333333;
   }
-  .social-header a:hover:nth-child(1) img{
+  .social-header img:hover:nth-child(1) {
     background-color: #3b5998;
   }
   .social-headers a:nth-child(2) img {
