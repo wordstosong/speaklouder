@@ -37,7 +37,7 @@ nav {
  /* .logo-small {
     width: 444px;
   }*/
-
+}
 
 .social-headers {
   display: none;
@@ -308,7 +308,7 @@ h1 {
   color: #fff;
   font-family: 'PT Sans';
 }
-}
+
 @media only screen and (min-width: 650px) {
   nav {
     width: 85%;
