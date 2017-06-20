@@ -330,6 +330,12 @@ h1 {
   .social-headers a:nth-child(1):hover img {
     background-color: #3b5998;
   }
+  .social-headers a:nth-child(2):hover img {
+    background-color: #00aced;
+  }
+  .social-headers a:nth-child(3):hover img {
+    background-color: #32506d;
+  }
   .social-headers a:nth-child(2) img {
     margin: 0 5px;
   }
