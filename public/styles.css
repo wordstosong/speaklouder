@@ -34,10 +34,10 @@ nav {
 }
 
 @media only screen and (min-width: 440px) {
-  .logo-small {
+ /* .logo-small {
     width: 444px;
-  }
-}
+  }*/
+
 
 .social-headers {
   display: none;
@@ -308,7 +308,7 @@ h1 {
   color: #fff;
   font-family: 'PT Sans';
 }
-
+}
 @media only screen and (min-width: 650px) {
   nav {
     width: 85%;
@@ -325,6 +325,7 @@ h1 {
   .social-headers img {
     float: left;
     width: 32px;
+    background-color: #333333;
   }
   .social-headers a:nth-child(2) img {
     margin: 0 5px;
