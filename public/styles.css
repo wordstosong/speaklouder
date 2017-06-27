@@ -11,7 +11,7 @@ nav {
   margin-right: auto;
   font-family: 'PT Sans';
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 400;
   position: relative;
   background: #333;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
@@ -251,6 +251,9 @@ h1 {
   font-size: 25px;
   font-weight: bold;
 }
+p {
+  font-family: 'PT Sans';
+}
 
 .date {
   padding-bottom: 20px;
@@ -272,28 +275,6 @@ h1 {
   padding: 20px;
 }
 
-.header-image {
-  width: 80%;
-  margin: auto;
-}
-
-.header-image img {
-  width: 100%;
-  margin: auto;
-}
-
-.page-text {
-  margin: 20px auto;
-  background-color: #F8EBD1;
-  height: auto;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
-  padding: 20px;
-}
-
-.question {
-  font-weight: bold;
-}
-
 .footer {
   background-color: #333333;
   clear: left;
@@ -306,7 +287,57 @@ h1 {
 .footer p {
   text-align: center;
   color: #fff;
-  font-family: 'PT Sans';
+}
+
+/* Pages CSS */
+
+.header-image {
+  width: 100%;
+  max-width: 440px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.header-image img {
+  width: 100%;
+  margin: auto;
+}
+
+.page-text {
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #F8EBD1;
+  height: auto;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  overflow: auto;
+}
+
+
+/* About */
+
+.question {
+  font-weight: bold;
+}
+
+/* Cast */
+
+.characters-container {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.character {
+  display: inline-block;
+  width: 62.5%;
+  max-width: 300px;
+  padding: 0 20px;
+}
+
+.character h1 {
+    margin: 5 0 16.75px 0;
 }
 
 @media only screen and (min-width: 650px) {
@@ -442,8 +473,18 @@ h1 {
     max-width: 850px;
     overflow: auto;
   }
+  .header-image {
+    width: 80%;
+    max-width:850px;
+    margin: auto;
+  }
+  .header-image img {
+    width: 100%;
+    margin: auto;
+  }
   .page-text {
     width: 65%;
+    max-width: none;
     /*margin: 20px auto;*/
   }
   /*@media only screen and (min-width: 900px){
@@ -560,4 +601,14 @@ h1 {
     /* margin-left: 2%;*/
     margin-top: 0;
   }
+  .header-image {
+    width: 80%;
+    max-width: none;
+  }
+  .page-text {
+    width: 65%;
+    max-width: none;
+    /*margin: 20px auto;*/
+  }
 }
+
