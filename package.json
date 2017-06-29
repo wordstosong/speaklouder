@@ -14,5 +14,8 @@
         "express": "^4.15.3",
         "express-handlebars": "^3.0.0"
     },
-    "repository": "ssh://git@github.com:wordstosong/jacobscript.git"
+    "repository": "ssh://git@github.com:wordstosong/jacobscript.git",
+    "devDependencies": {
+        "nodemon": "^1.11.0"
+    }
 }

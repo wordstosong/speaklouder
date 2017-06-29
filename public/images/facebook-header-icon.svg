@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#333333;}
-	.st1{fill:#FFFFFF;}
-</style>
-<g>
-	<rect y="0" class="st0" width="200" height="200"/>
-	<path class="st1" d="M174.4,119.7l3.9-30.6h-30.3V69.6c0-8.9,2.5-14.9,15.2-14.9l16.2,0V27.3c-2.8-0.4-12.4-1.2-23.6-1.2
-		c-23.4,0-39.4,14.3-39.4,40.5v22.6H90v30.6h26.4v78.5h31.6v-78.5H174.4z"/>
-</g>
-<rect x="116.4" y="198.3" class="st1" width="31.6" height="6.5"/>
-</svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><defs><style>.cls-1{fill:#fff;}</style></defs><title>facebook-header-icon</title><path class="cls-1" d="M174.43,119.72l3.94-30.61H148.06V69.57c0-8.86,2.47-14.9,15.18-14.9h16.2V27.27a215.56,215.56,0,0,0-23.62-1.21c-23.38,0-39.37,14.27-39.37,40.47V89.11H90v30.61h26.43v78.55h31.61V119.72h26.37Z"/><rect class="cls-1" x="116.45" y="191.61" width="31.61" height="13.14"/></svg>
