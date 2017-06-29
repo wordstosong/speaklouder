@@ -286,7 +286,7 @@ p {
   margin: auto;
 }
 
-.about-text {
+.page-text {
   margin: 20px auto;
   background-color: #F8EBD1;
   height: auto;
@@ -435,7 +435,7 @@ p {
     max-width: 850px;
     overflow: auto;
   }
-  .about-text {
+  .page-text {
     width: 65%;
     /*margin: 20px auto;*/
   }
