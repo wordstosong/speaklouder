@@ -3,6 +3,7 @@ var exphbs  = require('express-handlebars');
 var expressServer = require('express');
 var openBrowser = require('./tools/openBrowser');
 
+var isDev = process.env.NODE_ENV === 'development';
 var app = expressServer();
 
 app.engine('handlebars', exphbs({
@@ -37,5 +38,18 @@ var defaultPort = 8081;
 var port = process.env.PORT || defaultPort;
 app.listen(port, function() {
     console.log(chalk.blue('server is listening on port ' + port));
-    openBrowser(port);
+
+    if (isDev) {
+        var browserSync = require('browser-sync');
+        var bsPort = port + 1;
+        browserSync({
+            files: ['public/**/*.{html,js,css}', 'views/**/*.handlebars'],
+            online: false,
+            open: false,
+            port: bsPort,
+            proxy: 'localhost:' + port,
+            ui: false
+        });
+        openBrowser(bsPort);
+    }
 });
