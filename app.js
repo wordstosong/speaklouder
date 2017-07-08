@@ -1,6 +1,7 @@
 var chalk = require('chalk');
 var exphbs  = require('express-handlebars');
 var expressServer = require('express');
+var openBrowser = require('./tools/openBrowser');
 
 var app = expressServer();
 
@@ -36,4 +37,5 @@ var defaultPort = 8081;
 var port = process.env.PORT || defaultPort;
 app.listen(port, function() {
     console.log(chalk.blue('server is listening on port ' + port));
+    openBrowser(port);
 });
