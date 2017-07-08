@@ -16,9 +16,6 @@ This is the repository for the site [**Speak Louder!**][1]
     npm start
     ```
 
-
-
-
-[1]: http://jacob-script.herokuapp.com/
+[1]: http://www.speak-louder.com/
 [2]: https://github.com/creationix/nvm
 [3]: https://github.com/wbyoung/avn
