@@ -1,21 +1,28 @@
 <header>
-    <nav>
-        <div class="social-headers">
-            <a href="#facebook"><img src="images/buttons/social-headers/facebook-header-icon.svg" alt="Facebook Header Icon"></a>
-            <a href="https://twitter.com/WordsToSong" target="_blank"><img src="images/buttons/social-headers/twitter-header-icon.svg" alt="Twitter Header Icon"></a>
-            <a href="http://wordstosong.tumblr.com/" target="_blank"><img src="images/buttons/social-headers/tumblr-header-icon.svg" alt="Tumblr Header Icon"></a>
-        </div>
-        <a aria-label="Speak Louder!" class="logo" href="/">
-        </a>
-        <a aria-label="Speak Louder!" class="logo-small" href="/">
-        </a>
-        <div class="menu">
-            <ul>
-                <li><a href="/archive">Archive</a></li>
-                <li><a href="/cast">Cast</a></li>
-                <li><a href="/about">About</a></li>
-            </ul>
-        </div>
-        <div class="burger"><a href="#nav">&equiv;</a></div>
-    </nav>
+    <div class="logo">
+        <a href="/"><img src="/images/header/logo.png" aria-label="Speak Louder!" alt="Speak Louder logo"></a>
+    </div>
+    <div class="logo-small">
+        <a href="/"><img src="/images/header/logo-horizontal.png" aria-label="Speak Louder!" alt="Speak Louder logo"></a>
+    </div>
+    {{!-- <a aria-label="Speak Louder!" class="logo" href="/">
+    </a>
+    <a aria-label="Speak Louder!" class="logo-small" href="/">
+    </a> --}}
+    <div class="social-headers">
+        <a href="#facebook"><img src="images/buttons/social-headers/facebook-header-icon.svg" alt="Facebook Header Icon"></a>
+        <a href="https://twitter.com/WordsToSong" target="_blank"><img src="images/buttons/social-headers/twitter-header-icon.svg" alt="Twitter Header Icon"></a>
+        <a href="http://wordstosong.tumblr.com/" target="_blank"><img src="images/buttons/social-headers/tumblr-header-icon.svg" alt="Tumblr Header Icon"></a>
+    </div>
 </header>
+<nav>
+    <div class="menu" id="myMenu">
+        <ul>
+            <li><a href="/archive">Archive</a></li>
+            <li><a href="/cast">Cast</a></li>
+            <li><a href="/about">About</a></li>
+        </ul>
+        <a href="javascript:void(0);" class="burger" onclick="mobileMenu()">&equiv;</a>
+    </div>
+    {{!-- <div class="burger"><a href="#nav">&equiv;</a></div> --}}
+</nav>
