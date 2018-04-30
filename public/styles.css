@@ -109,6 +109,146 @@ li a:hover {
   transition: 0.3s;
 }
 
+/* homepage */
+
+.parallax {
+	min-height: 245px;
+	margin: 0;
+	
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 200px;
+}
+
+
+.welcome {
+	max-width: 650px;
+	margin:auto;
+	padding:50px;
+	background-color: #f8ebd2;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+	margin-top:0;
+	font-family: 'PT Sans Narrow';
+	text-align: center;
+	color: black;
+	font-size: 36px;
+}
+
+p {
+	font-family: 'PT sans';
+	font-size: 18px;
+	color: black;
+	line-height: 30px;
+}
+
+.sig{
+	text-align: center;
+	margin: 0;
+}
+
+.jk-sig {
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.jk{
+	background-image: url("https://i.imgur.com/Ezlt4vf.png");
+}
+
+.right{
+	position: absolute;
+	width: 45px;
+	z-index: 10;
+	top: 230px;
+	margin-left: 32%;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+} 
+
+.home-menu{
+	margin: 20px auto;
+	max-width: 750px;
+}
+.story-menu{
+	background-color: #222222;
+	padding: 20px 50px;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+}
+.story-title {
+	margin:0;
+	font-size: 20px;
+	font-family: 'PT Sans Narrow';
+	color: white;
+}
+
+.comic-menu {
+	background-color: #f8ebd2;;
+	padding: 10px 50px;
+	color: black;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+}
+.comic-title {
+	font-size: 18px;
+	font-family: 'PT Sans Narrow'
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+
+/* * {
+     box-sizing: border-box;
+   font-family: 'Open Sans',sans-serif;
+     font-weight: 300;
+ } */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* body {
+    width: 40%;
+    min-width: 300px;
+    max-width: 400px;
+    margin: 1.5em auto;
+    color: #333;
+} */
+
+/* drop down menu */
+ul {
+    list-style: none;
+    padding: 0;
+}
+    .inner {
+/*         padding-left: 1em; */
+        overflow: hidden;
+        display: none;
+}  
+  
+  
+    li {
+        margin: .5em 0;
+}
+        a.toggle {
+            display: block;
+            color: #fefefe;
+            transition: background .3s ease;
+}
+            a:hover {
+                background: rgba(0, 0, 0, 0.9);
+            }
+
+/* comic */
+
 .comic-frame {
   background-color: #222;
   width: 100%;
@@ -439,6 +579,32 @@ p {
   .burger {
     display: none;
   }
+
+/* homepage */
+
+.welcome {
+	background-color: #f8ebd2;
+	padding: 50px;
+	width: 80%;
+	max-width: 650px;
+	margin:auto;
+}
+	.right{
+	position: absolute;
+	width: 45px;
+	z-index: 10;
+	top: 230px;
+	margin-left: 39%;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+	.home-menu {
+		width: 95%;
+	}
+
+  /* comics */
+
   .comic-frame {
     width: 85%;
     max-width: 850px;
@@ -548,6 +714,30 @@ p {
     margin: auto;
     max-width: 1400px;
   }
+
+/* homepage */
+
+.right{
+	position: absolute;
+	width: 45px;
+	z-index: 10;
+	top: 230px;
+	margin-left: 43%;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+		}
+
+	.welcome {
+	background-color: #f8ebd2;
+	padding: 50px;
+	width: 100%;
+	max-width: 650px;
+	margin: auto;
+}
+  
+/* comics */
+
   .comic-frame {
     width: 100%;
     max-width: none;

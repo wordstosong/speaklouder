@@ -31,6 +31,10 @@ app.get('/cast', function (req, res) {
     res.render('cast', { title: title + ' | Cast' });
 });
 
+app.get('/comic/01-death-with-dignity', function (req, res) {
+    res.render('/comic/01-death-with-dignity', {title: title + ' | 01 - Death with Dignity'});
+});
+
 app.use(expressServer.static('public'));
 
 var defaultPort = 8081;
