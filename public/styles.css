@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  background: #f8ebd2
+  background: #f8ebd2;
 }
 
 nav {
@@ -49,7 +49,7 @@ nav {
   padding-top: 70px;
 }
 
-.menu ul {
+.menu .nav-ul {
   display: none;
 }
 
@@ -81,7 +81,7 @@ nav {
   right: 0;
   top: 0;
 }
-.menu.responsive ul {
+.menu.responsive .nav-ul {
   float: none;
   display: block;
   text-align: center;
@@ -89,13 +89,15 @@ nav {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  position: absolute;
+  right:0;
 }
 
-li {
+.nav-li {
   background: #222;
 }
 
-li a {
+.nav-li a {
   display: block;
   color: #fff;
   text-align: center;
@@ -104,7 +106,7 @@ li a {
   padding: 0.95em;
 }
 
-li a:hover {
+.nav-li a:hover {
   background: #111;
   transition: 0.3s;
 }
@@ -131,7 +133,7 @@ li a:hover {
 	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
 }
 
-h1 {
+.homepage-title {
 	margin-top:0;
 	font-family: 'PT Sans Narrow';
 	text-align: center;
@@ -139,7 +141,7 @@ h1 {
 	font-size: 36px;
 }
 
-p {
+.homepage-p, .sig {
 	font-family: 'PT sans';
 	font-size: 18px;
 	color: black;
@@ -158,14 +160,15 @@ p {
 	display: block;
 }
 .jk{
-	background-image: url("https://i.imgur.com/Ezlt4vf.png");
+  background-image: url(/images/home/jk-drawing.png);
+  background-position-y:97px;
 }
 
 .right{
 	position: absolute;
 	width: 45px;
 	z-index: 10;
-	top: 230px;
+	top: 302px;
 	margin-left: 32%;
 	margin-right: auto;
 	left: 0;
@@ -173,6 +176,8 @@ p {
 } 
 
 .home-menu{
+  padding: 0;
+  list-style-type:none;
 	margin: 20px auto;
 	max-width: 750px;
 }
@@ -195,13 +200,14 @@ p {
 	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
 }
 .comic-title {
+  padding: 10px 50px;
 	font-size: 18px;
 	font-family: 'PT Sans Narrow'
 }
 
-::-webkit-scrollbar { 
+/* ::-webkit-scrollbar { 
     display: none; 
-}
+} */
 
 
 /* * {
@@ -224,7 +230,7 @@ a {
 } */
 
 /* drop down menu */
-ul {
+.story-menu, .comic-menu {
     list-style: none;
     padding: 0;
 }
@@ -235,16 +241,17 @@ ul {
 }  
   
   
-    li {
+    .story-title, .comic-title {
         margin: .5em 0;
 }
         a.toggle {
+            padding: 10px 50px;
             display: block;
             color: #fefefe;
-            transition: background .3s ease;
+            transition: .3s ease;
 }
-            a:hover {
-                background: rgba(0, 0, 0, 0.9);
+            a.toggle:hover {
+                background: #111;
             }
 
 /* comic */
@@ -422,7 +429,7 @@ p {
   width: 100%;
   height: 94px;
   margin: auto;
-  border-top: 6px solid #a52323;
+  border-top: 6px solid #9B1F20;
 }
 
 .footer p {
@@ -546,21 +553,25 @@ p {
     padding: 0;
   }
 
-  .menu ul {
+  .menu .nav-ul {
     display: block;
   }
-  ul {
+  .nav-ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
   }
 
-  li {
+  .menu.responsive .nav-ul {
+    right: inherit;
+  }
+
+  .nav-li {
     float: left;
   }
 
-  li a {
+  .nav-li a {
     display: block;
     color: white;
     text-align: center;
@@ -570,7 +581,7 @@ p {
     text-decoration: none;
   }
 
-  li a:hover {
+  .nav-li a:hover {
     background-color: #111;
     transition: 0.3s;
   }
@@ -589,11 +600,15 @@ p {
 	max-width: 650px;
 	margin:auto;
 }
+
+.jk{
+  background-position-y:228px;
+}
 	.right{
 	position: absolute;
 	width: 45px;
 	z-index: 10;
-	top: 230px;
+	top: 431px;
 	margin-left: 39%;
 	margin-right: auto;
 	left: 0;
@@ -717,11 +732,10 @@ p {
 
 /* homepage */
 
-.right{
+ .right{
 	position: absolute;
 	width: 45px;
 	z-index: 10;
-	top: 230px;
 	margin-left: 43%;
 	margin-right: auto;
 	left: 0;
