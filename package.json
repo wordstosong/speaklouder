@@ -1,5 +1,5 @@
 {
-    "name": "jacobscript",
+    "name": "speaklouder",
     "version": "1.0.0",
     "description": "",
     "main": "app.js",
@@ -22,7 +22,7 @@
         "opn": "^5.3.0",
         "sntp": "^3.0.1"
     },
-    "repository": "ssh://git@github.com:wordstosong/jacobscript.git",
+    "repository": "ssh://git@github.com:wordstosong/speaklouder.git",
     "devDependencies": {
         "browser-sync": "^2.23.7",
         "nodemon": "^1.17.3"
