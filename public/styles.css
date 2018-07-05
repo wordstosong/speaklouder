@@ -656,7 +656,7 @@ p {
 	margin:auto;
 }
 
-body:before {
+.bg-jk:before {
   background-position-y:227px;
 }
 	.right{
