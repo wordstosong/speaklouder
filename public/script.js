@@ -6,23 +6,23 @@ $(window).on('load', function() {
 
 /*Pruebas*/
 
-var parallax = document.querySelectorAll(".parallax");
-var	speed = -0.25;
+// var parallax = document.querySelectorAll(".parallax");
+// var	speed = -0.25;
 
-window.onscroll = function() {
-	[].slice.call(parallax).forEach(function(el, i) {
+// window.onscroll = function() {
+// 	[].slice.call(parallax).forEach(function(el, i) {
 
-        var y = 97;
-        if ($(window).width()>= 650){y=228};
+//         var y = 97;
+//         if ($(window).width()>= 650){y=228};
 
-		var windowYOffset = window.pageYOffset,
-            elBackgrounPos = "50% " + (windowYOffset * speed + i * 200 + y) + "px";
+// 		var windowYOffset = window.pageYOffset,
+//             elBackgrounPos = "50% " + (windowYOffset * speed + i * 200 + y) + "px";
             
 
-		el.style.backgroundPosition = elBackgrounPos;
+// 		el.style.backgroundPosition = elBackgrounPos;
        
-	});
-};
+// 	});
+// };
 
 
     $('.toggle').click(function(e) {
