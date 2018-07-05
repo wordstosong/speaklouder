@@ -255,32 +255,73 @@ a {
             }
 
 /* comic */
+  /*comic frame */
 
 .comic-frame {
   background-color: #222;
   width: 100%;
-  max-width: 440px;
-  height: auto;
+  max-width: 400px;
+  height:auto;
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
 }
 
-.panels img {
-  width: 91%;
-  max-width: 400px;
-  padding: 4.545% 4.545% 0;
+.panel-container{
+  max-width: 380px;
+  margin:auto;
 }
 
-.panel-4 {
-  padding-bottom: 4.545%;
+.panel-container div {
+   display: inline-block;
+    width: 91%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 430px;
+}
+
+.panel-1{
+     background-image: url('images/comic-panels/01/panel-1.jpg');
+    transition: 1s;
+  margin: 8% 4% 2% 4%;
+}
+.panel-1.alt-1{
+     background-image: url("images/comic-panels/01/panel-1-alt.png");
+    transition: 1s;
+}
+.panel-2{
+     background-image: url('images/comic-panels/01/panel-2.jpg');
+    transition: 1s;
+  margin: 2% 4% 2% 4%;
+}
+.panel-2.alt-2{
+     background-image: url("images/comic-panels/01/panel-2-alt.png");
+    transition: 1s;
+}
+.panel-3{
+     background-image: url('images/comic-panels/01/panel-3.jpg');
+    transition: 1s;
+  margin: 2% 4% 2% 4%;
+}
+.panel-3.alt-3{
+     background-image: url('images/comic-panels/01/panel-3-alt.png');
+    transition: 1s;
+}
+.panel-4{
+     background-image: url('images/comic-panels/01/panel-4.jpg');
+    transition: 1s;
+margin: 2% 4% 4% 4%;
+}
+.panel-4.alt-4{
+     background-image: url("images/comic-panels/01/panel-4-alt.png");
+    transition: 1s;
 }
 
 .comic-nav-container {
   background-color: #222;
   width: 100%;
-  max-width: 440px;
+  max-width: 400px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -619,24 +660,41 @@ p {
 	}
 
   /* comics */
+    /*comic frame */
 
   .comic-frame {
-    width: 85%;
-    max-width: 850px;
-    overflow: auto;
+    width: 95%;
+    max-width: 700px;
   }
-  .panels img {
-    width: 47%;
-    max-width: 400px;
-    float: left;
-    padding: 2% 0 0 2%;
+  
+  .panel-container {
+    max-width:690px;
+    margin: auto;
+  }
+  
+  .panel-container div {
+    height: 360px;
+    width: 43.4%;
+}
+  
+    .panel-1{
+    margin: 4% 2% 2% 5%;
+  }
+  
+   .panel-2 {
+    margin: 4% 3% 2% 2%;
+  }
+  
+  .panel-3 {
+    margin: 2% 2% 4% 5%;
   }
   .panel-4 {
-    padding-bottom: 121%;
+    margin: 2% 3% 4% 2%;
   }
+  
   .comic-nav-container {
-    width: 85%;
-    max-width: 850px;
+    width: 95%;
+    max-width: 700px;
     height: 90px;
   }
   .comic-nav {
@@ -717,7 +775,7 @@ p {
   }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 950px) {
   nav {
     /* width: 90%; */
     max-width: none;
@@ -725,7 +783,7 @@ p {
     /* margin-top: 100px; */
   }
   .content {
-    width: 90%;
+    width: 95%;
     margin: auto;
     max-width: 1400px;
   }
@@ -751,24 +809,40 @@ p {
 }
   
 /* comics */
-
+  /*comic frame */
+  
   .comic-frame {
     width: 100%;
-    max-width: none;
-    overflow: auto;
+    max-width: 1200px;
   }
-  .panels img {
-    width: 22.5%;
-    max-width: 400px;
-    float: left;
-    padding: 2% 0 0 2%;
+  
+    .panel-container div {
+    height: 310px;
+    width: 21%;
+}
+  
+  .panel-container{
+    max-width: 1200px;
+    margin:auto;
   }
+  
+  .panel-1{
+    margin: 3% 1.5% 2% 2.5%;
+  }
+  
+   .panel-2, .panel-3 {
+    margin: 3% 1.5% 2% 1.5%;
+  }
+  
   .panel-4 {
-    padding-bottom: 32%;
+    margin: 3% 2% 2% 2%;
   }
+  
+
+ 
   .comic-nav-container {
     width: 100%;
-    max-width: none;
+    max-width: 1200px;
   }
   .comic-nav {
     border-top: 1px solid #999;

@@ -50,3 +50,18 @@ function mobileMenu() {
     }
 }
 
+// comic panel alt images
+
+$(".panel-1").click(function(){
+    $(this).toggleClass("alt-1")  ; 
+   })
+   $(".panel-2").click(function(){
+    $(this).toggleClass("alt-2")  ; 
+   })
+   $(".panel-3").click(function(){
+    $(this).toggleClass("alt-3")  ; 
+   })
+   $(".panel-4").click(function(){
+    $(this).toggleClass("alt-4")  ; 
+   })
+
