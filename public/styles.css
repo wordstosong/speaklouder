@@ -125,7 +125,7 @@ nav {
   background-position-y:97px; */
 }
 
-body:before {
+.bg-jk:before {
   content: "";
   display: block;
   position: fixed;
