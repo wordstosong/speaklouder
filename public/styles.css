@@ -114,15 +114,15 @@ nav {
 
 /* homepage */
 
-.parallax {
+.bg-jk {
 	min-height: 245px;
 	margin: 0;
-	
-	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 200px;
+  background-size: 200px;
+  background-image: url(/images/home/jk-drawing.png);
+  background-position-y:97px;
 }
 
 
@@ -160,10 +160,7 @@ nav {
 	margin-right: auto;
 	display: block;
 }
-.jk{
-  background-image: url(/images/home/jk-drawing.png);
-  background-position-y:97px;
-}
+  
 
 .right{
 	position: absolute;
@@ -643,7 +640,7 @@ p {
 	margin:auto;
 }
 
-.jk{
+.bg-jk{
   background-position-y:228px;
 }
 	.right{
