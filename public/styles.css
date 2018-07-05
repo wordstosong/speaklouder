@@ -139,7 +139,7 @@ body:before {
   -moz-background-size: 200px;
   -o-background-size: 200px;
   background-size: 200px;
-  background-position-y: 227px;
+  background-position-y: 97px;
 }
 
 .welcome {
@@ -656,8 +656,8 @@ p {
 	margin:auto;
 }
 
-.bg-jk{
-  background-position-y:228px;
+body:before {
+  background-position-y:227px;
 }
 	.right{
 	position: absolute;
