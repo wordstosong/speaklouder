@@ -1,12 +1,16 @@
 var chalk = require('chalk');
 var exphbs  = require('express-handlebars');
 var expressServer = require('express');
+var handlebars = require('handlebars');
+var layouts = require('handlebars-layouts');
 var openBrowser = require('./tools/openBrowser');
 
 var isDev = process.env.NODE_ENV === 'development';
 var app = expressServer();
 
 app.engine('handlebars', exphbs({
+    handlebars,
+    helpers: layouts(handlebars),
     defaultLayout: 'main',
     layoutsDir: './views/layouts',
     partialsDir: './views'
@@ -22,21 +26,21 @@ app.get('/', function (req, res) {
 });
 
 app.get('/about', function (req, res) {
-    res.render('about', { title: title + ' | About' });
+    res.render('about', { title: title });
 });
 
 app.get('/archive', function (req, res) {
-    res.render('archive', { title: title + ' | Archive' });
+    res.render('archive', { title: title });
 });
 
 app.get('/cast', function (req, res) {
-    res.render('cast', { title: title + ' | Cast' });
+    res.render('cast', { title: title });
 });
 
 /* comics */
 
 app.get('/01-death-with-dignity', function (req, res) {
-    res.render('comic/01-death-with-dignity', {title: title + ' | 01 - Death with Dignity'});
+    res.render('comic/01-death-with-dignity', {title: title});
 });
 
 app.use(expressServer.static('public'));

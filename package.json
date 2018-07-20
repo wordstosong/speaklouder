@@ -17,6 +17,8 @@
         "dependencies": "0.0.1",
         "express": "^4.16.3",
         "express-handlebars": "^3.0.0",
+        "handlebars": "^4.0.11",
+        "handlebars-layouts": "^3.1.4",
         "hawk": "^7.0.7",
         "hoek": "^5.0.3",
         "opn": "^5.3.0",

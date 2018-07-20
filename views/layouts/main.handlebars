@@ -1,11 +1,14 @@
 <html>
 
 <head>
-    <title>{{title}}</title>
+    <title>
+        {{#block 'title'}}
+            {{title}}
+        {{/block}}
+    </title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Sans+Narrow:400,700|PT+Serif:400,700" rel="stylesheet" />
-
     {{> shared/favicons }}
 </head>
 
