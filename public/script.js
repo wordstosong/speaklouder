@@ -50,6 +50,17 @@ function mobileMenu() {
     }
 }
 
+// hide background image on homepage after scroll of 300px
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        document.getElementById("blue-box").style.display = "block";
+    } else {
+        document.getElementById("blue-box").style.display = "none";
+    }
+}
+
 // comic panel alt images
 
 $(".panel-1").click(function(){
